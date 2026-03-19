@@ -87,3 +87,10 @@ alt+z
     上一级路径
 
 <img width="900" height="353" alt="Image" src="https://github.com/user-attachments/assets/118d9db4-00bb-4588-81a8-116ee4561b73" />
+
+
+#标注与特殊字符
+
+<img width="900" height="722" alt="Image" src="https://github.com/user-attachments/assets/28e25c92-a7b3-430d-98cf-206de9ff6976" />
+
+<img width="900" height="903" alt="Image" src="https://github.com/user-attachments/assets/9c4c60c6-e0e6-4c1e-976f-63a497bbb1aa" />
