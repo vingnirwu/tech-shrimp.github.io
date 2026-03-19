@@ -1,5 +1,64 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 11:07:48 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>字体</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/zi-ti.html</link><description>```'字体'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 11:14:33 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>文本</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        文本属性 
+        文本颜色 
+        div {
+            color: deeppink;
+            color: #ff0000;
+            color: rgb(255, 0, 0);
+        }
+        可以用预定义的颜色值，也可以用16进制、rgb 
+        双击可以从调色盘上选择 
+        
+        文本对齐 
+        div {
+            text-align: center;
+        }
+        属性：left、right、center 
+        
+        文本装饰 
+        div {
+            text-decoration: underline;
+        }
+        a {
+            text-decoration: none;
+            /* 取消a下划线 */
+        }
+        属性:none默认、underline下划线、overline上划线、line-through删除线 
+        
+        文本缩进 
+        p {
+            text-indent: 10px;
+            text-indent: 2em;
+        }
+        属性：px——像素、em——当前缩进文字几个文字大小 
+        
+        行间距 
+        body {
+            line-hight: 26px;
+        }
+        行高有上间距与下间距与文本高度，上间距与下间距相等， 
+        一般测第一行的最下沿到第二行的最下沿
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h2&gt;标题&lt;/h2&gt;
+    &lt;p&gt;普通文本1&lt;/p&gt;
+    &lt;p&gt;普通文本2&lt;/p&gt;
+    &lt;a&gt;下划线文本3&lt;/a&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</guid><pubDate>Thu, 19 Mar 2026 11:14:01 +0000</pubDate></item><item><title>字体</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/zi-ti.html</link><description>```'字体'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
