@@ -1,5 +1,102 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 05:31:18 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>标签学习1</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-1.html</link><description>```'http'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 05:32:28 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>标签学习2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-2.html</link><description>```'http'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    表格标签
+    主要作用：展示、显示数据
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;表头&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;单元格&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    tr——行
+    td——单元格（行中的列，即为单个单元格）
+    th——表头单元格
+
+    表格属性
+    &lt;table align='center' border='1' cellpadding='3' cellspacing='0' width='500'&gt;
+    &lt;/table&gt;
+    align——表格对齐方式 left center right
+    border——边框 1或''
+    cellpadding——单元格边缘与字符间的距离，默认为1像素
+    cellspacing——单元格间的距离，默认2像素
+    width——表格的宽度 像素值或百分比
+
+    表格结构标签
+    &lt;table&gt;
+        &lt;thead&gt;表头部&lt;/thead&gt;
+        &lt;tbody&gt;表主题&lt;/tbody&gt;
+    &lt;/table&gt;
+    使表格更清晰
+
+    合并单元格
+    两种方式：跨行合并、跨列合并
+    &lt;table border='1'&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan='2'&gt;&lt;/td&gt;
+            &lt;td colspan='2'&gt;&lt;/td&gt;
+            &lt;!-- &lt;td&gt;&lt;/td&gt; --&gt;删除多余单元格
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;!-- &lt;td&gt;&lt;/td&gt; --&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+
+    列表标签
+    作用：用来做布局
+    类型：无序列表、有序列表、自定义列表
+    无序列表
+    &lt;ul&gt;
+        &lt;li&gt;列表项1&lt;/li&gt;
+        &lt;li&gt;列表项2&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    注意：
+    1.无序列表各个项无等级之分，是并列的
+    2.ul中只能放&lt;li&gt;&lt;/li&gt;
+    3.li中可以容纳任何元素
+
+    有序列表
+    &lt;ol&gt;
+        &lt;li&gt;1.列表项1&lt;/li&gt;
+        &lt;li&gt;2.列表项2&lt;/li&gt;
+    &lt;/ol&gt;
+    有序列表前会有编号
+    注意项与无序列表基本相同
+
+    自定义列表
+    &lt;dl&gt;
+        &lt;dt&gt;名词1&lt;/dt&gt;
+        &lt;dd&gt;名词1解释1&lt;/dd&gt;
+        &lt;dd&gt;名词1解释2&lt;/dd&gt;
+    &lt;/dl&gt;
+    dl用于定义描述列表，会与dd一同使用
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+##下载
+[标签学习02.html](https://github.com/user-attachments/files/26106772/02.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-2.html</guid><pubDate>Thu, 19 Mar 2026 05:31:58 +0000</pubDate></item><item><title>标签学习1</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-1.html</link><description>```'http'
 &lt;!DOCTYPE html&gt;
 文档类型声明标签 --并非是html标签
 
