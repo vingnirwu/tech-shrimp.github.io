@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 08:45:39 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>CSS基础知识</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-ji-chu-zhi-shi.html</link><description># CSS基础知识
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 10:41:32 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>CSS基础知识</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-ji-chu-zhi-shi.html</link><description># CSS基础知识
 
 ### CSS简介
 
@@ -22,15 +22,60 @@
 
 &lt;img width='900' height='500' alt='Image' src='https://github.com/user-attachments/assets/32bc7c32-8310-4348-80c7-bb8a8e050214' /&gt;
 
-### 2、样式大小写
+#### 2、样式大小写
       提倡用小写字母书写
 
 &lt;img width='900' height='248' alt='Image' src='https://github.com/user-attachments/assets/5541d1cd-5def-4724-ad57-bf55641a42ac' /&gt;
 
-### 3、空格规范
+#### 3、空格规范
 
 &lt;img width='343' height='91' alt='Image' src='https://github.com/user-attachments/assets/1405001f-683c-4734-920a-4acbf65440f9' /&gt;
 
+
+### CSS选择器的作用
+
+&lt;img width='789' height='278' alt='Image' src='https://github.com/user-attachments/assets/e0bc62e4-5b48-4e65-b9b2-9980cb8e8d57' /&gt;
+
+&lt;img width='558' height='215' alt='Image' src='https://github.com/user-attachments/assets/c1ffc8e3-e6ae-4503-9746-d95b7fe17eff' /&gt;
+
+
+### 选择器的分类
+
+#### 基础选择器
+
+##### 标签选择器
+
+&lt;img width='754' height='177' alt='Image' src='https://github.com/user-attachments/assets/faa3d06c-d634-4d5e-a5b0-30b9bcdd8d5a' /&gt;
+
+&lt;img width='825' height='400' alt='Image' src='https://github.com/user-attachments/assets/c99c33db-b5a8-43f8-b6d7-85a39eecd5c0' /&gt;
+
+##### 类选择器
+
+&lt;img width='795' height='490' alt='Image' src='https://github.com/user-attachments/assets/6cae3aba-ede4-4d32-9389-75f4d5137515' /&gt;
+
+&lt;img width='661' height='231' alt='Image' src='https://github.com/user-attachments/assets/84f0a9b9-0a75-4771-b786-6f07099184be' /&gt;
+
+   多类名
+
+&lt;img width='771' height='267' alt='Image' src='https://github.com/user-attachments/assets/b9f8b947-7fb9-4ee3-8bd0-67580ab52bb6' /&gt;
+
+&lt;img width='775' height='274' alt='Image' src='https://github.com/user-attachments/assets/7c987a68-2e26-43df-8218-e64cf8597ec8' /&gt;
+
+&lt;img width='800' height='387' alt='Image' src='https://github.com/user-attachments/assets/18eddd3a-0666-4b54-bf49-57450c4b9a9c' /&gt;
+
+##### id选择器
+
+&lt;img width='533' height='142' alt='Image' src='https://github.com/user-attachments/assets/fad536bd-70cf-44b1-9d6c-6598d900a377' /&gt;
+
+&lt;img width='900' height='411' alt='Image' src='https://github.com/user-attachments/assets/31126fc6-657b-4aeb-8c51-5869343b8a85' /&gt;
+
+##### 通配符选择器
+
+&lt;img width='775' height='293' alt='Image' src='https://github.com/user-attachments/assets/1a3ac20e-bb94-4e93-886b-3a4592a2ca3a' /&gt;
+
+### 选择器总结
+
+&lt;img width='846' height='449' alt='Image' src='https://github.com/user-attachments/assets/032f3151-dbbb-4e56-b410-904e7c0b98b3' /&gt;
 
 
 
