@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Thu, 19 Mar 2026 11:15:21 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>黑马pink笔记</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</link><description>[「学习笔记」html基础.pdf](https://github.com/user-attachments/files/26113117/html.pdf)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</guid><pubDate>Thu, 19 Mar 2026 11:14:55 +0000</pubDate></item><item><title>文本</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 22 Mar 2026 13:52:25 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>黑马pink笔记</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</link><description>[「学习笔记」html基础.pdf](https://github.com/user-attachments/files/26113117/html.pdf)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</guid><pubDate>Thu, 19 Mar 2026 11:14:55 +0000</pubDate></item><item><title>文本</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
@@ -284,6 +284,12 @@
 ### 选择器总结
 
 &lt;img width='846' height='449' alt='Image' src='https://github.com/user-attachments/assets/032f3151-dbbb-4e56-b410-904e7c0b98b3' /&gt;
+
+
+### CSS引入方式
+
+
+
 
 
 
