@@ -1,5 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 08:03:56 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>黑马pink笔记</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</link><description>[「学习笔记」html基础.pdf](https://github.com/user-attachments/files/26113117/html.pdf)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</guid><pubDate>Thu, 19 Mar 2026 11:14:55 +0000</pubDate></item><item><title>文本</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 08:09:45 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>元素显示模式</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/yuan-su-xian-shi-mo-shi.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        /* 将行内元素转换为块元素 
+        display: block;
+        将块级元素转换为行级元素 
+        display: inline;
+        将行内元素转换为块元素 
+        display: inline-block; */
+
+        .ast {
+            width: 300px;
+            height: 50px;
+            background-color: green;
+
+            /* 将行内元素转换为块元素  */
+            display: block;
+        }
+
+        .divst {
+            /* 将块级元素转换为行级元素 */
+            display: inline;
+        }
+
+        .spanst {
+            width: 100px;
+            height: 300px;
+            background-color: skyblue;
+
+            /* 将行内元素转换为块元素  */
+            display: inline-block;
+
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;a herf='#'&gt;块元素&lt;/a&gt;&lt;br&gt;
+    &lt;a herf='#' clsss='ast'&gt;块元素转换为行内元素&lt;/a&gt;&lt;br&gt;
+    &lt;div&gt;我是块级元素&lt;/div&gt;&lt;br&gt;
+    &lt;div class='divst'&gt;我是块级元素转换为行级元素&lt;/div&gt;&lt;br&gt;
+    &lt;span&gt;我是行内元素&lt;span&gt;&lt;br&gt;
+    &lt;span class='spanst'&gt;我是行内元素转换为块元素&lt;/span&gt;&lt;br&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+下载链接：
+[元素选择模式.html](https://github.com/user-attachments/files/26206402/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/yuan-su-xian-shi-mo-shi.html</guid><pubDate>Tue, 24 Mar 2026 08:09:12 +0000</pubDate></item><item><title>黑马pink笔记</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</link><description>[「学习笔记」html基础.pdf](https://github.com/user-attachments/files/26113117/html.pdf)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</guid><pubDate>Thu, 19 Mar 2026 11:14:55 +0000</pubDate></item><item><title>文本</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
