@@ -10,55 +10,157 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="# 背景
+<meta name="description" content="```'http'
+<!DOCTYPE html>
+<html lang='en'>
 
-### 背景颜色
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <style>
+        /* 背景颜色 */
+        .div {
+            width: 200px;
+            height: 100px;
+            background-color: #03a309;
+        }
 
-<img width='900' height='635' alt='Image' src='https://github.com/user-attachments/assets/17484494-fef1-4281-a37f-c05362351252' />
+        /* 背景图片 */
+        .divb {
+            width: 200px;
+            height: 500px;
+            background-image: url(地址);
+            /* 属性：none（默认）、url+（图片地址） */
+        }
+
+        /* 背景平铺 */
+        .divbp {
+            width: 200px;
+            height: 500px;
+            background-image: url();
+            background-repeat: no-repeat;
+            /* 属性：repeat（默认）、no-repeat、repeat-x、repeat-y
+            repeat-x、repeat-y————沿x轴还是y轴平铺 */
+            /* 默认情况下背景是平铺的
+            平铺：图片重复填满区域 */
+
+            background-color: #03a309;
+            /* 页面元素既可以添加背景图片，又可以添加背景颜色，
+            只不过背景图片会压住颜色 */
+        }
+
+        /* 背景方位(重要) */
+        .divpo {
+            width: 1200px;
+            height: 500px;
+            background-color: #03a309;
+            background-image: url(/背景.png);
+            background-repeat: no-repeat;
+            /* 用于控制背景图片的位置
+            background-position: x y; 
+            x、y为方位名词*/
+            /* background-position: top left; */
+            /* 背景图片左上对齐 */
+            /* x、y的顺序不影响结果 */
+
+            /* background-position: center center; */
+            background-position: center;
+            /* 如果第一个填了，第二个默认为center */
+
+            /* 属性值：top、center、bottom（底部）y轴
+            left center right y轴 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class='divpo'></div>
+</body>
+
+</html>
+```
 
 
-### 背景图片
+下载链接：
 
-<img width='900' height='695' alt='Image' src='https://github.com/user-attachments/assets/32a1114f-2d85-40ef-82fd-2415d2d564a3' />
-
-
-### 背景平铺
-
-<img width='900' height='600' alt='Image' src='https://github.com/user-attachments/assets/4c2fb85d-f68e-4097-9e66-acdf32265187' />
-
-### 背景方位（重要）
-
-<img width='900' height='488' alt='Image' src='https://github.com/user-attachments/assets/530d1ced-7fa2-4d7e-b5f0-95836f0e7c6d' />
-
-<img width='900' height='437' alt='Image' src='https://github.com/user-attachments/assets/d0567de9-6de3-409b-b5bb-f82920d5ac79' />
-
-
-。">
+[背景.html](https://github.com/user-attachments/files/26209535/default.html)。">
 <meta property="og:title" content="背景">
-<meta property="og:description" content="# 背景
+<meta property="og:description" content="```'http'
+<!DOCTYPE html>
+<html lang='en'>
 
-### 背景颜色
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <style>
+        /* 背景颜色 */
+        .div {
+            width: 200px;
+            height: 100px;
+            background-color: #03a309;
+        }
 
-<img width='900' height='635' alt='Image' src='https://github.com/user-attachments/assets/17484494-fef1-4281-a37f-c05362351252' />
+        /* 背景图片 */
+        .divb {
+            width: 200px;
+            height: 500px;
+            background-image: url(地址);
+            /* 属性：none（默认）、url+（图片地址） */
+        }
+
+        /* 背景平铺 */
+        .divbp {
+            width: 200px;
+            height: 500px;
+            background-image: url();
+            background-repeat: no-repeat;
+            /* 属性：repeat（默认）、no-repeat、repeat-x、repeat-y
+            repeat-x、repeat-y————沿x轴还是y轴平铺 */
+            /* 默认情况下背景是平铺的
+            平铺：图片重复填满区域 */
+
+            background-color: #03a309;
+            /* 页面元素既可以添加背景图片，又可以添加背景颜色，
+            只不过背景图片会压住颜色 */
+        }
+
+        /* 背景方位(重要) */
+        .divpo {
+            width: 1200px;
+            height: 500px;
+            background-color: #03a309;
+            background-image: url(/背景.png);
+            background-repeat: no-repeat;
+            /* 用于控制背景图片的位置
+            background-position: x y; 
+            x、y为方位名词*/
+            /* background-position: top left; */
+            /* 背景图片左上对齐 */
+            /* x、y的顺序不影响结果 */
+
+            /* background-position: center center; */
+            background-position: center;
+            /* 如果第一个填了，第二个默认为center */
+
+            /* 属性值：top、center、bottom（底部）y轴
+            left center right y轴 */
+        }
+    </style>
+</head>
+
+<body>
+    <div class='divpo'></div>
+</body>
+
+</html>
+```
 
 
-### 背景图片
+下载链接：
 
-<img width='900' height='695' alt='Image' src='https://github.com/user-attachments/assets/32a1114f-2d85-40ef-82fd-2415d2d564a3' />
-
-
-### 背景平铺
-
-<img width='900' height='600' alt='Image' src='https://github.com/user-attachments/assets/4c2fb85d-f68e-4097-9e66-acdf32265187' />
-
-### 背景方位（重要）
-
-<img width='900' height='488' alt='Image' src='https://github.com/user-attachments/assets/530d1ced-7fa2-4d7e-b5f0-95836f0e7c6d' />
-
-<img width='900' height='437' alt='Image' src='https://github.com/user-attachments/assets/d0567de9-6de3-409b-b5bb-f82920d5ac79' />
-
-
-。">
+[背景.html](https://github.com/user-attachments/files/26209535/default.html)。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -103,7 +205,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/vingnirwu/tech-shrimp.github.io/issues/18" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/vingnirwu/tech-shrimp.github.io/issues/19" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -119,16 +221,77 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h1>背景</h1>
-<h3>背景颜色</h3>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/17484494-fef1-4281-a37f-c05362351252"><img width="900" height="635" alt="Image" src="https://github.com/user-attachments/assets/17484494-fef1-4281-a37f-c05362351252" style="max-width: 100%; height: auto; max-height: 635px;"></a></p>
-<h3>背景图片</h3>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/32a1114f-2d85-40ef-82fd-2415d2d564a3"><img width="900" height="695" alt="Image" src="https://github.com/user-attachments/assets/32a1114f-2d85-40ef-82fd-2415d2d564a3" style="max-width: 100%; height: auto; max-height: 695px;"></a></p>
-<h3>背景平铺</h3>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4c2fb85d-f68e-4097-9e66-acdf32265187"><img width="900" height="600" alt="Image" src="https://github.com/user-attachments/assets/4c2fb85d-f68e-4097-9e66-acdf32265187" style="max-width: 100%; height: auto; max-height: 600px;"></a></p>
-<h3>背景方位（重要）</h3>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/530d1ced-7fa2-4d7e-b5f0-95836f0e7c6d"><img width="900" height="488" alt="Image" src="https://github.com/user-attachments/assets/530d1ced-7fa2-4d7e-b5f0-95836f0e7c6d" style="max-width: 100%; height: auto; max-height: 488px;"></a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/d0567de9-6de3-409b-b5bb-f82920d5ac79"><img width="900" height="437" alt="Image" src="https://github.com/user-attachments/assets/d0567de9-6de3-409b-b5bb-f82920d5ac79" style="max-width: 100%; height: auto; max-height: 437px;"></a></p></div>
+<div class="markdown-body" id="postBody"><pre lang="&quot;http&quot;" class="notranslate"><code class="notranslate">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        /* 背景颜色 */
+        .div {
+            width: 200px;
+            height: 100px;
+            background-color: #03a309;
+        }
+
+        /* 背景图片 */
+        .divb {
+            width: 200px;
+            height: 500px;
+            background-image: url(地址);
+            /* 属性：none（默认）、url+（图片地址） */
+        }
+
+        /* 背景平铺 */
+        .divbp {
+            width: 200px;
+            height: 500px;
+            background-image: url();
+            background-repeat: no-repeat;
+            /* 属性：repeat（默认）、no-repeat、repeat-x、repeat-y
+            repeat-x、repeat-y————沿x轴还是y轴平铺 */
+            /* 默认情况下背景是平铺的
+            平铺：图片重复填满区域 */
+
+            background-color: #03a309;
+            /* 页面元素既可以添加背景图片，又可以添加背景颜色，
+            只不过背景图片会压住颜色 */
+        }
+
+        /* 背景方位(重要) */
+        .divpo {
+            width: 1200px;
+            height: 500px;
+            background-color: #03a309;
+            background-image: url(/背景.png);
+            background-repeat: no-repeat;
+            /* 用于控制背景图片的位置
+            background-position: x y; 
+            x、y为方位名词*/
+            /* background-position: top left; */
+            /* 背景图片左上对齐 */
+            /* x、y的顺序不影响结果 */
+
+            /* background-position: center center; */
+            background-position: center;
+            /* 如果第一个填了，第二个默认为center */
+
+            /* 属性值：top、center、bottom（底部）y轴
+            left center right y轴 */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class="divpo"&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+<p>下载链接：</p>
+<p><a href="https://github.com/user-attachments/files/26209535/default.html">背景.html</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

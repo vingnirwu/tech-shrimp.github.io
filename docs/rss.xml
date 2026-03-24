@@ -1,5 +1,79 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 09:56:46 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>背景相关</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing-xiang-guan.html</link><description># 背景
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 09:57:45 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>背景</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing.html</link><description>```'http'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        /* 背景颜色 */
+        .div {
+            width: 200px;
+            height: 100px;
+            background-color: #03a309;
+        }
+
+        /* 背景图片 */
+        .divb {
+            width: 200px;
+            height: 500px;
+            background-image: url(地址);
+            /* 属性：none（默认）、url+（图片地址） */
+        }
+
+        /* 背景平铺 */
+        .divbp {
+            width: 200px;
+            height: 500px;
+            background-image: url();
+            background-repeat: no-repeat;
+            /* 属性：repeat（默认）、no-repeat、repeat-x、repeat-y
+            repeat-x、repeat-y————沿x轴还是y轴平铺 */
+            /* 默认情况下背景是平铺的
+            平铺：图片重复填满区域 */
+
+            background-color: #03a309;
+            /* 页面元素既可以添加背景图片，又可以添加背景颜色，
+            只不过背景图片会压住颜色 */
+        }
+
+        /* 背景方位(重要) */
+        .divpo {
+            width: 1200px;
+            height: 500px;
+            background-color: #03a309;
+            background-image: url(/背景.png);
+            background-repeat: no-repeat;
+            /* 用于控制背景图片的位置
+            background-position: x y; 
+            x、y为方位名词*/
+            /* background-position: top left; */
+            /* 背景图片左上对齐 */
+            /* x、y的顺序不影响结果 */
+
+            /* background-position: center center; */
+            background-position: center;
+            /* 如果第一个填了，第二个默认为center */
+
+            /* 属性值：top、center、bottom（底部）y轴
+            left center right y轴 */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class='divpo'&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+
+下载链接：
+
+[背景.html](https://github.com/user-attachments/files/26209535/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing.html</guid><pubDate>Tue, 24 Mar 2026 09:57:12 +0000</pubDate></item><item><title>背景相关</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing-xiang-guan.html</link><description># 背景
 
 ### 背景颜色
 
