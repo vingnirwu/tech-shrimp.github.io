@@ -1,5 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 08:09:45 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>元素显示模式</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/yuan-su-xian-shi-mo-shi.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 08:18:57 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>样式表</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/yang-shi-biao.html</link><description>```'http'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+
+    &lt;!-- 内部样式表 --&gt;
+    &lt;style&gt;
+        div {
+            color: red;
+        }
+    &lt;/style&gt;
+
+    &lt;!-- 外部样式表 --&gt;
+    &lt;link rel='stylesheet' href='文件路径'&gt;
+    &lt;link rel='stylesheet' href='外部样式表.css'&gt;
+    写在head里
+    herf的路径规则和超链接相同
+    可控制多个页面
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;!-- 行内样式表 --&gt;
+    &lt;div style='color: red;'&gt; 行内样式表&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+```'css'
+/* 直接写，不需要style */
+div {
+color: red;
+}
+```
+
+下载链接：
+
+
+[外部样式表.css](https://github.com/user-attachments/files/26206960/default.css)
+
+
+[样式表.html](https://github.com/user-attachments/files/26206931/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/yang-shi-biao.html</guid><pubDate>Tue, 24 Mar 2026 08:18:32 +0000</pubDate></item><item><title>元素显示模式</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/yuan-su-xian-shi-mo-shi.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
