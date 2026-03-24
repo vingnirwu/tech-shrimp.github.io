@@ -79,6 +79,45 @@
 
 ### CSS引入方式
 
+<img width="631" height="317" alt="Image" src="https://github.com/user-attachments/assets/db642a2c-090e-49a0-94b6-451f85bc1780" />
+
+##### 行内样式表
+
+<img width="900" height="277" alt="Image" src="https://github.com/user-attachments/assets/0c1b0228-1400-469e-9fb5-a911c35e52e8" />
+
+##### 内部样式表
+
+<img width="781" height="288" alt="Image" src="https://github.com/user-attachments/assets/76c772f2-9c91-43ab-aee2-2d24e9f96f3a" />
+
+<img width="697" height="150" alt="Image" src="https://github.com/user-attachments/assets/d38b7aca-47c2-4ebf-8119-8f3350a545a6" />
+
+##### 外部样式表
+
+<img width="840" height="551" alt="Image" src="https://github.com/user-attachments/assets/143e339c-35b1-4793-8a92-1b1090926c06" />
+
+<img width="798" height="242" alt="Image" src="https://github.com/user-attachments/assets/52199d3b-52aa-415e-a81b-6a4292144f99" />
+
+
+### emmet语法
+
+<img width="809" height="200" alt="Image" src="https://github.com/user-attachments/assets/98d284fa-67d9-41b0-87d2-079dab13cf15" />
+
+<img width="693" height="313" alt="Image" src="https://github.com/user-attachments/assets/7e4e8637-f13f-467d-b2b8-b61742becb71" />
+
+
+### 元素显示模式
+
+<img width="823" height="227" alt="Image" src="https://github.com/user-attachments/assets/ff392676-f0ed-4e8d-a89a-e3a188485010" />
+
+<img width="879" height="445" alt="Image" src="https://github.com/user-attachments/assets/fd48fb08-699f-46a4-9356-2d64e00d2164" />
+
+<img width="868" height="445" alt="Image" src="https://github.com/user-attachments/assets/8cf3046b-f770-4ae2-8f0e-e330ad646166" />
+
+<img width="798" height="331" alt="Image" src="https://github.com/user-attachments/assets/c7100285-f112-44e9-96d5-8ed7a62bb4ef" />
+
+<img width="854" height="337" alt="Image" src="https://github.com/user-attachments/assets/080b4845-4f94-4ddb-9cf3-492c43b8a89b" />
+
+
 
 
 
