@@ -1,5 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 08:38:08 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>选择器（基础+复合）</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/xuan-ze-qi-%EF%BC%88-ji-chu-%2B-fu-he-%EF%BC%89.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 24 Mar 2026 09:16:45 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>小米侧边栏</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/xiao-mi-ce-bian-lan.html</link><description>## 原图：
+
+&lt;img width='149' height='182' alt='Image' src='https://github.com/user-attachments/assets/52a29983-c4b6-4186-848b-27d1c23201cf' /&gt;
+
+## 作品效果：
+
+&lt;img width='500' height='300' alt='Image' src='https://github.com/user-attachments/assets/82b408b3-4f7a-438a-911b-3a87d7bdf73e' /&gt;
+
+```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        a {
+            display: block;
+            /*将链接转换为块元素 */
+            width: 230px;
+            height: 40px;
+            background-color: #535758;
+            font-style: 14px;
+            color: #ffffff;
+            text-decoration: none;
+            text-indent: 2em;
+            line-height: 40px;
+        }
+
+        a:hover {
+            background-color: #ff6f00;
+        }
+
+        /* 文字垂直居中技巧 */
+        /* 文字行高等于盒子宽度 */
+        /* a {
+            line-height: 40;
+        } */
+    &lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;!-- 思路：
+    把a链接转化为块元素，在加上效果鼠标经过切换背景颜色 --&gt;
+    &lt;a href='#'&gt;手机 电话卡&lt;/a&gt;
+    &lt;a href='#'&gt;电视 盒子&lt;/a&gt;
+    &lt;a href='#'&gt;笔记本 平板&lt;/a&gt;
+    &lt;a href='#'&gt;出行 穿戴&lt;/a&gt;
+    &lt;a href=''&gt;出行 穿戴&lt;/a&gt;
+    &lt;a href=''&gt;智能 路由器&lt;/a&gt;
+    &lt;a href=''&gt;健康 儿童&lt;/a&gt;
+    &lt;a href=''&gt;耳机 音响&lt;/a&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+## 让文字垂直居中技巧
+
+&lt;img width='900' height='400' alt='Image' src='https://github.com/user-attachments/assets/db4f0ce2-2697-4b77-b165-c26127131bf6' /&gt;
+
+下载链接：
+
+[小米侧边栏.html](https://github.com/user-attachments/files/26208297/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/xiao-mi-ce-bian-lan.html</guid><pubDate>Tue, 24 Mar 2026 09:16:17 +0000</pubDate></item><item><title>选择器（基础+复合）</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/xuan-ze-qi-%EF%BC%88-ji-chu-%2B-fu-he-%EF%BC%89.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
