@@ -1,5 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Wed, 25 Mar 2026 07:28:26 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>背景</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing.html</link><description>```'http'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Wed, 25 Mar 2026 08:53:25 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>盒子模型</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</link><description># 盒子模型
+
+
+### 组成部分
+
+&lt;img width='1455' height='824' alt='Image' src='https://github.com/user-attachments/assets/81cdb9eb-6e48-4f5c-80eb-f453e9d64e77' /&gt;
+
+```'HTML'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        body div {
+            width: 300px;
+            height: 300px;
+
+            /* 边框粗细 */
+            /* border-width: 5px;  边框的粗细 */
+            border-width: 5px;
+
+            /* 边框样式 */
+            /* border-style: dotted; 边框的样式 */
+            /* solid-实线 dashed-虚线 dotted-点线 其余查手册*/
+            border-style: dotted;
+
+            /* 边框颜色 */
+            /* border-color: bisque; 边框的颜色 */
+            border-color: bisque;
+
+            /* 复合写法 */
+            /* 一般格式：粗细、样式、颜色 */
+            bottom: 5px solid pink;
+
+            /* 单独设置边框 */
+            bottom-top: 5px solid pink;
+            /* top、bottom、left、right */
+            /* 注意：
+            覆盖性——先写大的，再写小的
+            bottom: 5px solid pink;
+            bottom-top: 55px solid blue;
+            上边框为蓝，其余为粉
+            若顺序反了则全为粉
+             */
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</guid><pubDate>Wed, 25 Mar 2026 08:52:53 +0000</pubDate></item><item><title>背景</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bei-jing.html</link><description>```'http'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
