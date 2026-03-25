@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Wed, 25 Mar 2026 08:53:25 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>盒子模型</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</link><description># 盒子模型
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Wed, 25 Mar 2026 09:55:07 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>盒子模型</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</link><description># 盒子模型
 
 
 ### 组成部分
@@ -15,7 +15,8 @@
     &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
     &lt;title&gt;Document&lt;/title&gt;
     &lt;style&gt;
-        body div {
+        /* 边框 */
+        .body div {
             width: 300px;
             height: 300px;
 
@@ -46,12 +47,146 @@
             上边框为蓝，其余为粉
             若顺序反了则全为粉
              */
+
+            /* 注意： 边框会影响盒子的实际大小 */
+            /* 实际大小 = 盒子大小 + 边框大小 */
+        }
+
+        /* 表格细线边框 */
+        table,
+        td,
+        th {
+            border: red 1px solid;
+            font-style: 14px;
+            text-align: center;
+
+            /* 边框合并 */
+            /* 由于相邻边框重叠，实际宽度不修改会为两倍 */
+            border-collapse: collapse;
+        }
+
+        /* 盒子内边距padding */
+        .padding {
+            width: 200px;
+            height: 300px;
+            background-color: red;
+
+            /* 内边距设置 */
+            padding-left: 5px;
+            padding-top: 30px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+
+            /* 复合写法 */
+            /* padding: 5px; 上下左右有5px */
+            /* padding: 5px 7px; 上下有5px 左右为7px */
+            /* padding: 5px 7px 9px; 上为5px，左右为7px，下为9px */
+            /* padding: 5px 6px 7px 8px; 上为5px，右为6px，下为7px，左为8px */
+
+            /* 注意： padding会影响盒子的实际大小 */
+            /* 实际大小 = 盒子大小 + padding大小 */
+            /* 可以用此特性完成设计，不用宽度用内边距设定大小 */
+        }
+
+        /* padding不会撑开盒子的情况 */
+        h1 {
+            /* 不给宽度就不会撑开 */
+            /* 两种情况： 1.默认宽度 2.继承来的大小 */
+            height: 500px;
+            background-color: pink;
+            padding: 30px;
+
+            /* 此时会多加30px */
+            /* width: 100%;
+            height: 500px;
+            background-color: pink;
+            padding: 30px; */
+        }
+
+        /* 盒子外边距margin */
+        .margin {
+            width: 200px;
+            height: 300px;
+            background-color: rgb(0, 255, 89);
+
+            /* 外边距设置 */
+            /* 和padding规则相同 */
+            margin-top: 50px;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            /* 复合写法 */
+            /* margin: 5px; */
+
         }
     &lt;/style&gt;
 &lt;/head&gt;
 
 &lt;body&gt;
-    &lt;div&gt;&lt;/div&gt;
+    &lt;table align='center' cellspacing='0' width='500px' height='400px'&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;排名&lt;/th&gt;
+                &lt;th&gt;关键词&lt;/th&gt;
+                &lt;th&gt;趋势&lt;/th&gt;
+                &lt;th&gt;进入搜索&lt;/th&gt;
+                &lt;th&gt;最近qitian&lt;/th&gt;
+                &lt;th&gt;相关链接&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;鬼吹灯&lt;/td&gt;
+                &lt;td&gt;&lt;img src='/上箭头.jpg' alt='' width='13px' height='13px'&gt;&lt;/td&gt;
+                &lt;td&gt;456&lt;/td&gt;
+                &lt;td&gt;123&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;a href='#'&gt;贴吧&lt;/a&gt;
+                    &lt;a href='#'&gt;图片&lt;/a&gt;
+                    &lt;a href='#'&gt;百科&lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;鬼吹灯3&lt;/td&gt;
+                &lt;td&gt;&lt;img src='/下箭头.jpg' alt='' width='13px' height='13px'&gt;&lt;/td&gt;
+                &lt;td&gt;456&lt;/td&gt;
+                &lt;td&gt;123&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;a href='#'&gt;贴吧&lt;/a&gt;
+                    &lt;a href='#'&gt;图片&lt;/a&gt;
+                    &lt;a href='#'&gt;百科&lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;鬼吹灯2&lt;/td&gt;
+                &lt;td&gt;&lt;img src='/上箭头.jpg' alt='' width='13px' height='13px'&gt;&lt;/td&gt;
+                &lt;td&gt;456&lt;/td&gt;
+                &lt;td&gt;123&lt;/td&gt;
+                &lt;td&gt;
+                    &lt;a href='#'&gt;贴吧&lt;/a&gt;
+                    &lt;a href='#'&gt;图片&lt;/a&gt;
+                    &lt;a href='#'&gt;百科&lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+
+    &lt;div class='padding'&gt;
+        盒子的内容是content
+        盒子的内容是content
+        盒子的内容是content
+        盒子的内容是content
+        盒子的内容是content
+    &lt;/div&gt;
+
+    &lt;h1&gt;padding 不会撑开盒子的情况&lt;/h1&gt;
+
+    &lt;div class='margin'&gt;margin1&lt;/div&gt;
+    &lt;div class='margin'&gt;margin2&lt;/div&gt;
 &lt;/body&gt;
 
 &lt;/html&gt;
