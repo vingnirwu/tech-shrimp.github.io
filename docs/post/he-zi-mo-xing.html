@@ -130,7 +130,66 @@
             /* 复合写法 */
             /* margin: 5px; */
 
+            /* 让盒子水平居中对齐 */
+            /* 有以下写法：
+            margin-left: auto; margin-right: auto;
+            margin: 0 auto; 上下为0，左右为auto */
         }
+
+        /* 行内元素或者行内块元素居中对齐 */
+        .hnk {
+            /* 方法：给父元素添加text-align: center;即可 */
+            width: 900px;
+            height: 400px;
+            background-color: pink;
+            text-align: center;
+            margin: auto;
+        }
+
+        /* 外边距合并-套嵌块元素塌陷 */
+        /* 塌陷案例 */
+        .father {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-top: 50px;
+        }
+
+        .son {
+            width: 40px;
+            height: 200px;
+            background-color: pink;
+            margin-top: 100px;
+            /* 谁大谁会塌陷，父元素和子元素无论谁大会把另一个也拖下来 */
+        }
+
+        /* 解决方法 */
+        /* 1.为父元素加上边框 border 如：border：1px solid transparent；
+        2.为父元素定义内边距
+        3.为父元素添加overflow: hidden */
+        .father2 {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-top: 50px;
+            overflow: hidden;
+            /* padding: 10px; */
+        }
+
+        .son2 {
+            width: 20px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 100px;
+        }
+
+        /* 清除浏览器内外边距 */
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+        /* 这是我们CSS的第一行代码 */
+        /* 行内元素为了照顾兼容性，一般只设置左右内外边距，不设置上下边距 */
     </style>
 </head>
 
@@ -198,10 +257,26 @@
 
     <div class='margin'>margin1</div>
     <div class='margin'>margin2</div>
+
+    <div class='hnk'>
+        <span>行内块元素居中</span>
+    </div>
+
+    <div class='father'>
+        <div class='son'>zi</div>
+    </div>
+
+    <div class='father2'>
+        <div class='son2'>zi2</div>
+    </div>
 </body>
 
 </html>
-```。">
+```
+
+下载链接：
+
+[盒子模型.html](https://github.com/user-attachments/files/26323102/default.html)。">
 <meta property="og:title" content="盒子模型">
 <meta property="og:description" content="# 盒子模型
 
@@ -323,7 +398,66 @@
             /* 复合写法 */
             /* margin: 5px; */
 
+            /* 让盒子水平居中对齐 */
+            /* 有以下写法：
+            margin-left: auto; margin-right: auto;
+            margin: 0 auto; 上下为0，左右为auto */
         }
+
+        /* 行内元素或者行内块元素居中对齐 */
+        .hnk {
+            /* 方法：给父元素添加text-align: center;即可 */
+            width: 900px;
+            height: 400px;
+            background-color: pink;
+            text-align: center;
+            margin: auto;
+        }
+
+        /* 外边距合并-套嵌块元素塌陷 */
+        /* 塌陷案例 */
+        .father {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-top: 50px;
+        }
+
+        .son {
+            width: 40px;
+            height: 200px;
+            background-color: pink;
+            margin-top: 100px;
+            /* 谁大谁会塌陷，父元素和子元素无论谁大会把另一个也拖下来 */
+        }
+
+        /* 解决方法 */
+        /* 1.为父元素加上边框 border 如：border：1px solid transparent；
+        2.为父元素定义内边距
+        3.为父元素添加overflow: hidden */
+        .father2 {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-top: 50px;
+            overflow: hidden;
+            /* padding: 10px; */
+        }
+
+        .son2 {
+            width: 20px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 100px;
+        }
+
+        /* 清除浏览器内外边距 */
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+        /* 这是我们CSS的第一行代码 */
+        /* 行内元素为了照顾兼容性，一般只设置左右内外边距，不设置上下边距 */
     </style>
 </head>
 
@@ -391,10 +525,26 @@
 
     <div class='margin'>margin1</div>
     <div class='margin'>margin2</div>
+
+    <div class='hnk'>
+        <span>行内块元素居中</span>
+    </div>
+
+    <div class='father'>
+        <div class='son'>zi</div>
+    </div>
+
+    <div class='father2'>
+        <div class='son2'>zi2</div>
+    </div>
 </body>
 
 </html>
-```。">
+```
+
+下载链接：
+
+[盒子模型.html](https://github.com/user-attachments/files/26323102/default.html)。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -570,7 +720,66 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
             /* 复合写法 */
             /* margin: 5px; */
 
+            /* 让盒子水平居中对齐 */
+            /* 有以下写法：
+            margin-left: auto; margin-right: auto;
+            margin: 0 auto; 上下为0，左右为auto */
         }
+
+        /* 行内元素或者行内块元素居中对齐 */
+        .hnk {
+            /* 方法：给父元素添加text-align: center;即可 */
+            width: 900px;
+            height: 400px;
+            background-color: pink;
+            text-align: center;
+            margin: auto;
+        }
+
+        /* 外边距合并-套嵌块元素塌陷 */
+        /* 塌陷案例 */
+        .father {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-top: 50px;
+        }
+
+        .son {
+            width: 40px;
+            height: 200px;
+            background-color: pink;
+            margin-top: 100px;
+            /* 谁大谁会塌陷，父元素和子元素无论谁大会把另一个也拖下来 */
+        }
+
+        /* 解决方法 */
+        /* 1.为父元素加上边框 border 如：border：1px solid transparent；
+        2.为父元素定义内边距
+        3.为父元素添加overflow: hidden */
+        .father2 {
+            width: 400px;
+            height: 400px;
+            background-color: red;
+            margin-top: 50px;
+            overflow: hidden;
+            /* padding: 10px; */
+        }
+
+        .son2 {
+            width: 20px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 100px;
+        }
+
+        /* 清除浏览器内外边距 */
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+        /* 这是我们CSS的第一行代码 */
+        /* 行内元素为了照顾兼容性，一般只设置左右内外边距，不设置上下边距 */
     &lt;/style&gt;
 &lt;/head&gt;
 
@@ -638,10 +847,24 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
     &lt;div class="margin"&gt;margin1&lt;/div&gt;
     &lt;div class="margin"&gt;margin2&lt;/div&gt;
+
+    &lt;div class="hnk"&gt;
+        &lt;span&gt;行内块元素居中&lt;/span&gt;
+    &lt;/div&gt;
+
+    &lt;div class="father"&gt;
+        &lt;div class="son"&gt;zi&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="father2"&gt;
+        &lt;div class="son2"&gt;zi2&lt;/div&gt;
+    &lt;/div&gt;
 &lt;/body&gt;
 
 &lt;/html&gt;
-</code></pre></div>
+</code></pre>
+<p>下载链接：</p>
+<p><a href="https://github.com/user-attachments/files/26323102/default.html">盒子模型.html</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
