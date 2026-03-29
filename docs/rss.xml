@@ -1,5 +1,105 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 28 Mar 2026 12:21:11 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>盒子模型</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</link><description># 盒子模型
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 03:00:24 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>盒子模型2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        /* 圆角 */
+        .yuanjiao {
+            width: 200px;
+            height: 200px;
+            background: pink;
+
+            /* 圆角边框 */
+            /* border-radius: 圆角半径; */
+            border-radius: 10px;
+            /* 四个角-一个值 */
+            /* border-radius: 左上 右上 右下 左下; 四个值
+            border-radius: 左上+右下 右上+左下; 两个值
+            border-radius: 左上 右上+左下 右下; 三个值 */
+
+        }
+
+        /* 特殊做法 */
+        /* 1.圆形的做法 */
+        /* 高和宽相等，圆角半径等于一半 */
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* border-radius: 100px; 或者*/
+            border-radius: 50%;
+        }
+
+        /* 2.圆角矩形的做法 */
+        .circlesquare {
+            width: 400px;
+            height: 200px;
+            background-color: pink;
+            border-radius: 100px;
+            /* 或者 border-radius: 50%; */
+        }
+
+        /* 3.可以设置不同的角 */
+        /* 左上角 */
+        .btl {
+            width: 400px;
+            height: 200px;
+            background-color: pink;
+            border-top-left-radius: 20px;
+        }
+
+
+        /* 盒子阴影 */
+        .shadow {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* 盒子阴影 */
+            /* box-shadow: 影子在水平轴上距离（正右负左） 垂直 模糊程度 尺寸 颜色 内部阴影;
+            水平与垂直距离是必须元素，其余不是
+            当为内部阴影时加上inset，但外部不能写outset */
+            box-shadow: 0 0 20px 15px rgba(0, 0, 0, .3);
+        }
+
+        /* 鼠标经过有阴影 */
+        div:hover {
+            box-shadow: 0 0 20px 15px rgba(0, 0, 0, .3);
+        }
+
+
+        /* 文字阴影 */
+        .textshadow {
+            font-size: 120px;
+            font-weight: 800;
+            /* text-shadow: 水平 垂直 模糊程度 颜色; */
+            text-shadow: 0px 0px 25px red;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class='yuanjiao'&gt;&lt;/div&gt;
+    1.圆形的做法
+    &lt;div class='circle'&gt;&lt;/div&gt;
+    2.圆角矩形的做法
+    &lt;div class='circlesquare'&gt;&lt;/div&gt;
+    3.设置单独角
+    &lt;div class='btl'&gt;&lt;/div&gt;
+    &lt;br&gt;
+    盒子阴影
+    &lt;div class='shadow'&gt;&lt;/div&gt;
+    &lt;br&gt;
+    文字阴影
+    &lt;p class='textshadow'&gt;文字阴影&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</guid><pubDate>Sun, 29 Mar 2026 02:59:57 +0000</pubDate></item><item><title>盒子模型</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</link><description># 盒子模型
 
 
 ### 组成部分
