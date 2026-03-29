@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 09:49:43 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多行伸缩布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-xing-shen-suo-bu-ju.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 16:28:39 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多行伸缩布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-xing-shen-suo-bu-ju.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
@@ -632,7 +632,7 @@ flex
 &lt;/body&gt;
 
 &lt;/html&gt;
-```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</guid><pubDate>Sun, 29 Mar 2026 02:59:57 +0000</pubDate></item><item><title>盒子模型</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</link><description># 盒子模型
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</guid><pubDate>Sun, 29 Mar 2026 02:59:57 +0000</pubDate></item><item><title>盒子模型1</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-1.html</link><description># 盒子模型
 
 
 ### 组成部分
@@ -898,7 +898,7 @@ flex
 
 下载链接：
 
-[盒子模型.html](https://github.com/user-attachments/files/26323102/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing.html</guid><pubDate>Wed, 25 Mar 2026 08:52:53 +0000</pubDate></item><item><title>CSS三大特性</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-san-da-te-xing.html</link><description># CSS三大特性
+[盒子模型.html](https://github.com/user-attachments/files/26323102/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-1.html</guid><pubDate>Wed, 25 Mar 2026 08:52:53 +0000</pubDate></item><item><title>CSS三大特性</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-san-da-te-xing.html</link><description># CSS三大特性
 
 ### 层叠性
 就近原则
