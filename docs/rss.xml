@@ -1,5 +1,153 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 05:43:36 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>浮动</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</link><description># 浮动
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 05:44:23 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>浮动代码</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong-dai-ma.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        /* 浮动的特性：
+        1.脱标 脱离标准流控制浮动显示
+        2.行排列顶部对齐
+        3.具有行内块元素特性 不管什么元素，添加浮动后，都有行内块元素特性 */
+
+        /* 注意： 
+        1.浮动和标准流搭配 
+        先用标准流父元素排列上下位置，之后子元素采取左右排列 
+        2.一个元素浮动，理论上其余的兄弟元素也要浮动 
+        浮动的盒子只会影响后面的标准流，不会影响前面的  */
+        .fst {
+            width: 200px;
+            height: 400px;
+            background: red;
+            float: left;
+        }
+
+        .sec {
+            width: 400px;
+            height: 600px;
+            background: rgb(0, 242, 255);
+            float: left;
+        }
+
+        .tir {
+            width: 600px;
+            height: 600px;
+            background: rgb(34, 255, 0);
+        }
+
+
+
+        /* 清除浮动 */
+        /* 1.额外标签法 */
+        .clear {
+            clear: both;
+        }
+
+        .clflt {
+            background-color: pink;
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin-right: 5px;
+        }
+
+        .box {
+            border: 5px solid black;
+            width: 400px;
+            margin-top: 20px;
+        }
+
+        .next {
+            background-color: rgb(192, 255, 225);
+            width: 150px;
+            height: 50px;
+            margin-top: 5px;
+        }
+
+        /* 2.为父级添加overflow */
+        .clflt {
+            background-color: pink;
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin-right: 5px;
+        }
+
+        .box {
+            overflow: hidden;
+            border: 5px solid black;
+            width: 400px;
+            margin-top: 20px;
+        }
+
+        .next {
+            background-color: rgb(192, 255, 225);
+            width: 150px;
+            height: 50px;
+            margin-top: 5px;
+        }
+
+        /* 3.after伪元素法 */
+        /* 给父元素添加clearfix */
+        .clearfix::after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        /* 照顾低版本浏览器 */
+        .clearfix {
+            *zoom: 1;
+        }
+
+        /* 4.双伪元素清除 */
+        .clearfix:before,
+        .clearfix:after {
+            content: '';
+            display: table;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix:after {
+            clear: both;
+        }
+
+        .clearfix {
+            *zoom: 1;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class='fst'&gt;注意&lt;/div&gt;
+    &lt;div class='sec'&gt;注意&lt;/div&gt;
+    &lt;div class='tir'&gt;注意&lt;/div&gt;
+    &lt;br&gt;&lt;br&gt;&lt;br&gt;
+    &lt;div class='box clearfix'&gt;
+        &lt;div class='clflt'&gt; 1&lt;/div&gt;
+        &lt;div class='clflt'&gt; 2&lt;/div&gt;
+        &lt;div class='clflt'&gt; 3&lt;/div&gt;
+        &lt;div class='clflt'&gt; 4&lt;/div&gt;
+        &lt;div class='clflt'&gt; 5&lt;/div&gt;
+        &lt;div class='clear'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='next'&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+下载链接：
+
+[浮动.html](https://github.com/user-attachments/files/26328615/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong-dai-ma.html</guid><pubDate>Sun, 29 Mar 2026 05:43:54 +0000</pubDate></item><item><title>浮动</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</link><description># 浮动
 
 ### 网页布局的三种方式
 
