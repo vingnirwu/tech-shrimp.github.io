@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 04:39:14 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>浮动</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</link><description># 浮动
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 05:43:36 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>浮动</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</link><description># 浮动
 
 ### 网页布局的三种方式
 
@@ -51,7 +51,38 @@
 
 ### 注意事项
 
-&lt;img width='1182' height='548' alt='Image' src='https://github.com/user-attachments/assets/430b1b26-1100-48e6-a6c0-67f1b5ca51bb' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</guid><pubDate>Sun, 29 Mar 2026 04:02:19 +0000</pubDate></item><item><title>盒子模型2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</link><description>```'html'
+&lt;img width='1182' height='548' alt='Image' src='https://github.com/user-attachments/assets/430b1b26-1100-48e6-a6c0-67f1b5ca51bb' /&gt;
+
+
+### 清除浮动
+
+&lt;img width='619' height='160' alt='Image' src='https://github.com/user-attachments/assets/efbabbda-3e8d-4565-8fdb-0ab67685df4c' /&gt;
+
+&lt;img width='632' height='322' alt='Image' src='https://github.com/user-attachments/assets/d846ada0-01f3-4793-b75e-74413a2c41f6' /&gt;
+
+&lt;img width='521' height='176' alt='Image' src='https://github.com/user-attachments/assets/cee76c92-9aa7-4931-9248-d4a1087ffac7' /&gt;
+
+
+#### 1.额外标签法
+
+&lt;img width='590' height='137' alt='Image' src='https://github.com/user-attachments/assets/8a1b46ef-6950-4b47-b9b2-ba709530cab5' /&gt;
+
+&lt;img width='529' height='349' alt='Image' src='https://github.com/user-attachments/assets/fc067286-6cf2-45fb-b717-316e75982c9b' /&gt;
+
+
+#### 2.父级添加overflow
+
+&lt;img width='494' height='164' alt='Image' src='https://github.com/user-attachments/assets/e2529f23-f470-4a77-bebe-bacb7da8cb3f' /&gt;
+
+
+#### 3.after伪元素法
+
+&lt;img width='685' height='382' alt='Image' src='https://github.com/user-attachments/assets/59e618ba-2e0d-4c12-a893-30d6aeecaba2' /&gt;
+
+
+#### 4.双伪元素清除
+
+&lt;img width='658' height='390' alt='Image' src='https://github.com/user-attachments/assets/dfac77d4-1c00-4217-b227-869cdce6cf01' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</guid><pubDate>Sun, 29 Mar 2026 04:02:19 +0000</pubDate></item><item><title>盒子模型2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
