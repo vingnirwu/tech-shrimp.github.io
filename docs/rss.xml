@@ -1,5 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 09:46:26 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>字体图标</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/zi-ti-tu-biao.html</link><description># 字体图标
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 09:48:48 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>弹性盒</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/dan-xing-he.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;link rel='stylesheet' href='./iconfont/iconfont.css'&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 600px;
+            height: 800px;
+            background-color: rgb(0, 110, 255);
+
+            /* 设置弹性盒子 */
+            /* 弹性盒子的子元素按主轴排列 */
+            display: flex;
+            /* 容器（父盒子）设置 display: flex; 可以让子盒子按照主轴方式排列。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/dan-xing-he.html</guid><pubDate>Sun, 29 Mar 2026 09:48:15 +0000</pubDate></item><item><title>字体图标</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/zi-ti-tu-biao.html</link><description># 字体图标
 
 &lt;img width='1557' height='970' alt='Image' src='https://github.com/user-attachments/assets/2184c7e5-3c52-4830-a9b9-30886b770efe' /&gt;
 
