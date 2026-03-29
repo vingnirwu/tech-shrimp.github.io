@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 05:44:23 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>浮动代码</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong-dai-ma.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 05:45:13 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>浮动代码</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong-dai-ma.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
@@ -230,7 +230,13 @@
 
 #### 4.双伪元素清除
 
-&lt;img width='658' height='390' alt='Image' src='https://github.com/user-attachments/assets/dfac77d4-1c00-4217-b227-869cdce6cf01' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</guid><pubDate>Sun, 29 Mar 2026 04:02:19 +0000</pubDate></item><item><title>盒子模型2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</link><description>```'html'
+&lt;img width='658' height='390' alt='Image' src='https://github.com/user-attachments/assets/dfac77d4-1c00-4217-b227-869cdce6cf01' /&gt;
+
+
+
+### 总结
+
+&lt;img width='1210' height='652' alt='Image' src='https://github.com/user-attachments/assets/36980bb4-a9f1-43b6-89ac-f560f5713dae' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/fu-dong.html</guid><pubDate>Sun, 29 Mar 2026 04:02:19 +0000</pubDate></item><item><title>盒子模型2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/he-zi-mo-xing-2.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
