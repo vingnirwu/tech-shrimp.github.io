@@ -1,5 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 29 Mar 2026 16:28:39 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多行伸缩布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-xing-shen-suo-bu-ju.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Fri, 03 Apr 2026 13:52:27 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>定位布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju.html</link><description>#定位布局
+
+&lt;img width='1527' height='759' alt='Image' src='https://github.com/user-attachments/assets/7d95f8f2-6019-4be1-8686-6f5e3873245f' /&gt;
+
+四种
+
+&lt;img width='630' height='186' alt='Image' src='https://github.com/user-attachments/assets/d7e4f23d-907e-4f37-ad30-38c251b583a6' /&gt;
+
+
+
+### 相对定位
+
+&lt;img width='1498' height='768' alt='Image' src='https://github.com/user-attachments/assets/538f85d3-5c22-4de8-8417-4896814095f0' /&gt;
+
+
+### 绝对定位
+
+&lt;img width='1523' height='767' alt='Image' src='https://github.com/user-attachments/assets/7b40ef13-7d9a-41e9-a301-811b705324cf' /&gt;
+
+子绝父相
+&lt;img width='1489' height='782' alt='Image' src='https://github.com/user-attachments/assets/e7416ab7-7241-4b56-bb25-7762fdb6ee89' /&gt;
+。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju.html</guid><pubDate>Fri, 03 Apr 2026 13:52:02 +0000</pubDate></item><item><title>多行伸缩布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-xing-shen-suo-bu-ju.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
