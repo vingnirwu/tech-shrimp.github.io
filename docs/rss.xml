@@ -1,5 +1,180 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 04 Apr 2026 09:20:44 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>定位布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju.html</link><description>#定位布局
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 04 Apr 2026 09:28:43 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>定位布局文档</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju-wen-dang.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 相对定位 */
+        .box1 {
+            /* 给元素设定相对定位 */
+            position: relative;
+            /* 给元素设定定位 */
+            /* 相对于原来位置移动 */
+            /* 用top、left、bottom、right四个属性来定位元素 */
+            /* top与bottom同时被设置，优先执行top */
+            /* left与right同时被设置，优先执行left */
+            /* 不脱离正常流  原本的位置仍保留 */
+            top: 100px;
+            left: 100px;
+
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+
+        /* 绝对定位 */
+        /* 如果父亲有定位，则绝对定位是相对与父亲 */
+        /* 如果父亲没有定位，则绝对定位是相对与视口 */
+        .son1 {
+            /* 给元素设定绝对定位 */
+            position: absolute;
+            /* 给元素设定定位 */
+            /* 相对于最近的有定位的父元素 */
+            /* 脱离标准流 */
+            top: 100px;
+            left: 100px;
+            /* 子绝父相 */
+
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .son2 {
+            width: 200px;
+            height: 500px;
+            background-color: rgb(62, 32, 99);
+        }
+
+        .father {
+            width: 400px;
+            height: 600px;
+            background-color: rgb(201, 108, 108);
+            position: relative;
+        }
+
+        /* 固定定位 */
+        .gd {
+            /* 给元素设定固定定位 */
+            /* 脱离标准流 */
+            /* 固定定位是相对于视口定位 */
+            position: fixed;
+
+            /* 水平居中：先定位到50%，再往回走自己的一半 */
+            left: 50%;
+            margin-left: -800px;
+
+            bottom: 30px;
+            width: 1600px;
+            height: 120px;
+            background-color: rgba(81, 0, 255, 0.5);
+            border-radius: 15px;
+            z-index: 100;
+        }
+
+        /* 粘性定位 */
+        /* 是一种混合定位模式，结合了相对定位和固定定位 */
+        /* 与固定定位不同，粘性定位是相对与父盒子，而不是视口 */
+        /* 只会在父盒子范围固定 */
+        .nx {
+            /* 给元素设定粘性定位 */
+            position: sticky;
+            /* top: x px; 当顶部距离父盒子还有x像素时，粘性定位生效，此时元素会固定在设定的位置 */
+            top: 0px;
+            left: 20px;
+            /* 注意：粘性定位的父盒子，overflow: visible; 才能生效 
+            当父盒子overflow属性为hidden时，粘性定位不会生效 */
+            background-color: rgb(6, 124, 65);
+            width: 200px;
+            height: 200px;
+        }
+
+        .box4 {
+            width: 500px;
+            height: 2000px;
+            background-color: rgb(156, 201, 108);
+            margin-bottom: 100px;
+        }
+
+
+        /* 定位布局-层叠顺序 */
+        /* 层叠顺序：z-index */
+        /* 层叠顺序的值越大，越靠前 */
+        /* 层叠顺序的值相同，先写在后面，越靠前 */
+        /* 层叠顺序z-index默认值为auto，后面的元素压住前面的元素 */
+        .box5 {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(201, 108, 108);
+            position: relative;
+            overflow: visible;
+        }
+
+        .box6 {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(6, 124, 65);
+            z-index: 5;
+
+            position: absolute;
+            /* 需要注意：z-index只对定位元素（position属性值为absolute、relative、fixed或sticky）生效，对静态定位（static）无效无效 */
+        }
+
+        .box7 {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 128, 0);
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            z-index: 2;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class='box1'&gt;&lt;/div&gt;
+    &lt;div class='box2'&gt;&lt;/div&gt;
+    &lt;br&gt;&lt;br&gt;&lt;br&gt;
+    &lt;div class='father'&gt;
+        &lt;div class='son1'&gt;&lt;/div&gt;
+        &lt;div class='son2'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='gd'&gt;&lt;/div&gt;
+    &lt;div class='box4'&gt;
+        &lt;div class='nx'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class='box4'&gt;&lt;/div&gt;
+    &lt;br&gt;&lt;br&gt;
+    &lt;div class='box5'&gt;
+        &lt;div class='box6'&gt;&lt;/div&gt;
+        &lt;div class='box7'&gt;&lt;/div&gt;
+        &lt;div class='box8'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+下载：
+
+[定位布局.html](https://github.com/user-attachments/files/26479594/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju-wen-dang.html</guid><pubDate>Sat, 04 Apr 2026 09:28:13 +0000</pubDate></item><item><title>定位布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju.html</link><description>#定位布局
 
 &lt;img width='1527' height='759' alt='Image' src='https://github.com/user-attachments/assets/7d95f8f2-6019-4be1-8686-6f5e3873245f' /&gt;
 
