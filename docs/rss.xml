@@ -1,5 +1,73 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 08:39:49 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多列布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju.html</link><description># 多列布局
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 12:14:16 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多列布局文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju-wen-jian.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 多列布局 */
+        .box {
+            /* 写法： */
+            /* 分成4列 */
+            column-count: 4;
+            /* 每一列之间的间距 */
+            column-gap: 20px;
+            /* 在列中加一条线 */
+            column-rule: 1px solid #000;
+
+            max-width: 1200px;
+            margin: 30px auto;
+            border: 1px solid #000;
+        }
+
+        .box .item {
+            /* 强制不切割换行 */
+            break-inside: avoid-column;
+
+            background-color: pink;
+            height: 160px;
+            width: 160px;
+            margin-bottom: 20px;
+        }
+
+        .box .item:nth-child(2n+3) {
+            height: 200px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class='box'&gt;
+        &lt;div class='item'&gt;1&lt;/div&gt;
+        &lt;div class='item'&gt;2&lt;/div&gt;
+        &lt;div class='item'&gt;3&lt;/div&gt;
+        &lt;div class='item'&gt;4&lt;/div&gt;
+        &lt;div class='item'&gt;5&lt;/div&gt;
+        &lt;div class='item'&gt;6&lt;/div&gt;
+        &lt;div class='item'&gt;7&lt;/div&gt;
+        &lt;div class='item'&gt;8&lt;/div&gt;
+        &lt;div class='item'&gt;9&lt;/div&gt;
+        &lt;div class='item'&gt;10&lt;/div&gt;
+        &lt;div class='item'&gt;11&lt;/div&gt;
+        &lt;div class='item'&gt;12&lt;/div&gt;
+        &lt;div class='item'&gt;13&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+下载链接：
+
+[多列布局.html](https://github.com/user-attachments/files/26488157/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju-wen-jian.html</guid><pubDate>Sun, 05 Apr 2026 12:13:51 +0000</pubDate></item><item><title>多列布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju.html</link><description># 多列布局
 
 &lt;img width='1483' height='625' alt='Image' src='https://github.com/user-attachments/assets/33ce2589-e768-44b7-b387-8372a3ff0d91' /&gt;
 
