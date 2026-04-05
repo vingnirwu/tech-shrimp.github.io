@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 08:06:41 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>网格布局文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wang-ge-bu-ju-wen-jian.html</link><description>```'http'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 08:39:49 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多列布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju.html</link><description># 多列布局
+
+&lt;img width='1483' height='625' alt='Image' src='https://github.com/user-attachments/assets/33ce2589-e768-44b7-b387-8372a3ff0d91' /&gt;
+
+&lt;img width='1388' height='226' alt='Image' src='https://github.com/user-attachments/assets/247466a8-e4f3-405a-a7d1-ed0d845ac624' /&gt;
+
+
+###  强制不切割
+
+&lt;img width='1302' height='557' alt='Image' src='https://github.com/user-attachments/assets/dc4b6be1-6ccf-4115-a56e-52eccf57f1b2' /&gt;
+
+### 加线
+
+&lt;img width='505' height='300' alt='Image' src='https://github.com/user-attachments/assets/ea2d35f6-f93e-4c36-8886-37c551ab30e1' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju.html</guid><pubDate>Sun, 05 Apr 2026 08:39:22 +0000</pubDate></item><item><title>网格布局文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wang-ge-bu-ju-wen-jian.html</link><description>```'http'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
