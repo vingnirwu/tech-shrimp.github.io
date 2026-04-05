@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 04 Apr 2026 09:55:34 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>网格布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wang-ge-bu-ju.html</link><description># 网格布局
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 08:04:13 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>网格布局</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wang-ge-bu-ju.html</link><description># 网格布局
 
 &lt;img width='1398' height='661' alt='Image' src='https://github.com/user-attachments/assets/35c66387-d248-4599-bf79-8f8a1ad44c14' /&gt;
 
@@ -24,7 +24,84 @@
 
 ### 自动延长
 
-&lt;img width='709' height='613' alt='Image' src='https://github.com/user-attachments/assets/3c6ef9b3-92bb-459e-b0f1-fc9e9859de78' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/wang-ge-bu-ju.html</guid><pubDate>Sat, 04 Apr 2026 09:28:34 +0000</pubDate></item><item><title>定位布局文档</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju-wen-dang.html</link><description>```'html'
+&lt;img width='709' height='613' alt='Image' src='https://github.com/user-attachments/assets/3c6ef9b3-92bb-459e-b0f1-fc9e9859de78' /&gt;
+
+
+### fr单位
+
+&lt;img width='1475' height='890' alt='Image' src='https://github.com/user-attachments/assets/e53b9a40-050e-42c4-a435-5b3ac6969b49' /&gt;
+
+
+### gap函数
+
+&lt;img width='1576' height='800' alt='Image' src='https://github.com/user-attachments/assets/758780f1-6996-4c67-a5df-5dd7b98e12af' /&gt;
+
+
+### repeat写法
+
+&lt;img width='933' height='570' alt='Image' src='https://github.com/user-attachments/assets/08ec5d14-382b-49ab-9831-a0ba314b6983' /&gt;
+
+
+### 自动填充完成响应式写法
+
+&lt;img width='1360' height='692' alt='Image' src='https://github.com/user-attachments/assets/9629334b-cfb7-4daf-b978-a7860d3a5224' /&gt;
+
+
+### 网格线
+
+&lt;img width='1417' height='739' alt='Image' src='https://github.com/user-attachments/assets/edf162eb-d8af-4116-97ff-39c64e6bacba' /&gt;
+
+语法1
+
+&lt;img width='1374' height='719' alt='Image' src='https://github.com/user-attachments/assets/0b3a4595-947e-4deb-9b24-e097ebc41793' /&gt;
+
+语法2
+
+&lt;img width='1418' height='769' alt='Image' src='https://github.com/user-attachments/assets/7e299c7b-8292-4249-8fcf-752f01bf0217' /&gt;
+
+
+### 网格布局
+
+&lt;img width='1562' height='926' alt='Image' src='https://github.com/user-attachments/assets/cc9f7435-eea6-4012-a967-8f61072c90a8' /&gt;
+
+
+### object-fit
+
+&lt;img width='1520' height='741' alt='Image' src='https://github.com/user-attachments/assets/2543bb39-f851-4878-9862-d2727982f650' /&gt;
+
+
+### 网格项目对齐方式
+
+&lt;img width='1352' height='801' alt='Image' src='https://github.com/user-attachments/assets/9e31f506-affd-48a1-ada6-6bd500ee6dd2' /&gt;
+
+&lt;img width='1437' height='839' alt='Image' src='https://github.com/user-attachments/assets/e0cbce40-815b-4e37-81ec-cdcc823bcf10' /&gt;
+
+
+### 总结
+
+&lt;img width='1426' height='768' alt='Image' src='https://github.com/user-attachments/assets/7b4cbd9b-71e5-4ff1-8071-67523aae53e5' /&gt;
+
+&lt;img width='1452' height='791' alt='Image' src='https://github.com/user-attachments/assets/430504a2-5af8-4dac-b385-78a6146100e4' /&gt;
+
+&lt;img width='1403' height='758' alt='Image' src='https://github.com/user-attachments/assets/c7385b52-c0ef-412a-a3ad-a2ea17827177' /&gt;
+
+&lt;img width='1445' height='842' alt='Image' src='https://github.com/user-attachments/assets/2a001b1e-855b-4328-831b-2f7188713558' /&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/wang-ge-bu-ju.html</guid><pubDate>Sat, 04 Apr 2026 09:28:34 +0000</pubDate></item><item><title>定位布局文档</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ding-wei-bu-ju-wen-dang.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
