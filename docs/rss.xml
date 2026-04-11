@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 05 Apr 2026 12:14:16 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>多列布局文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju-wen-jian.html</link><description>```'html'
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 11 Apr 2026 04:49:39 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>鼠标样式</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/shu-biao-yang-shi.html</link><description># 鼠标样式
+
+&lt;img width='1554' height='961' alt='Image' src='https://github.com/user-attachments/assets/3cd2ed14-8d86-428f-a6d5-8c192bed46ad' /&gt;
+
+
+###  常见鼠标样式
+
+&lt;img width='1349' height='524' alt='Image' src='https://github.com/user-attachments/assets/1be6f6ad-69f9-4fd9-80a0-eb383ba38eef' /&gt;
+
+
+
+``` 'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;ul&gt;
+        &lt;li style='cursor: pointer;'&gt;鼠标样式point&lt;/li&gt;
+        &lt;li style='cursor: text;'&gt;鼠标样式text&lt;/li&gt;
+        &lt;li style='cursor: wait;'&gt;鼠标样式wait&lt;/li&gt;
+        &lt;li style='cursor: help;'&gt;鼠标样式help&lt;/li&gt;
+        &lt;li style='cursor: not-allowed;'&gt;鼠标样式not-allowed&lt;/li&gt;
+        &lt;li style='cursor: grab;'&gt;鼠标样式grab&lt;/li&gt;
+        &lt;li style='cursor: grabbing;'&gt;鼠标样式grabbing&lt;/li&gt;
+        &lt;li style='cursor: zoom-in;'&gt;鼠标样式zoom-in&lt;/li&gt;
+        &lt;li style='cursor: zoom-out;'&gt;鼠标样式zoom-out&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+### 下载链接：
+
+[鼠标样式.html](https://github.com/user-attachments/files/26643304/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/shu-biao-yang-shi.html</guid><pubDate>Sat, 11 Apr 2026 04:49:11 +0000</pubDate></item><item><title>多列布局文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/duo-lie-bu-ju-wen-jian.html</link><description>```'html'
 &lt;!DOCTYPE html&gt;
 &lt;html lang='en'&gt;
 
