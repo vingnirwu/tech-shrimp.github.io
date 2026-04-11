@@ -1,5 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 11 Apr 2026 04:56:17 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>书写顺序</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/shu-xie-shun-xu.html</link><description># 书写顺序
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 11 Apr 2026 08:09:40 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bian-huan.html</link><description># 变换
+
+&lt;img width='1742' height='964' alt='Image' src='https://github.com/user-attachments/assets/bafd20ee-6ca2-4493-a82a-6612ff13de34' /&gt;
+
+# 2d-位移变换
+
+&lt;img width='1559' height='968' alt='Image' src='https://github.com/user-attachments/assets/41d24e13-8ade-4cf1-b987-c0c98a5f9e46' /&gt;
+
+体验网站：
+https://css-transform.moro.es/
+
+&lt;img width='1599' height='814' alt='Image' src='https://github.com/user-attachments/assets/4377d3bf-79a4-4723-8601-94439f887cff' /&gt;
+
+&lt;img width='801' height='341' alt='Image' src='https://github.com/user-attachments/assets/f6636f57-c58a-419c-915c-66b246afa380' /&gt;
+
+
+**注意： 过渡是transition**
+
+
+特殊应用：
+
+&lt;img width='587' height='273' alt='Image' src='https://github.com/user-attachments/assets/7136b9ab-4e5b-49fc-8bfc-50e86e272861' /&gt;
+
+需要居中对齐的盒子top：50%后不用再计算自己高度的一半了，直接translate：50%就行
+
+
+重要应用：
+
+&lt;img width='1476' height='834' alt='Image' src='https://github.com/user-attachments/assets/8b371351-f416-46ec-9b62-880eb425d3b1' /&gt;
+
+
+
+
+#2d-旋转变换
+
+&lt;img width='1556' height='849' alt='Image' src='https://github.com/user-attachments/assets/9235a3e4-258a-4790-ad3a-aaf19b437beb' /&gt;
+
+注意：
+&lt;img width='1439' height='295' alt='Image' src='https://github.com/user-attachments/assets/07785131-38e4-48aa-ae31-f826a555e8f9' /&gt;
+
+
+
+
+。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/bian-huan.html</guid><pubDate>Sat, 11 Apr 2026 08:09:10 +0000</pubDate></item><item><title>书写顺序</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/shu-xie-shun-xu.html</link><description># 书写顺序
 
 &lt;img width='1428' height='842' alt='Image' src='https://github.com/user-attachments/assets/922ec0f1-218d-44f3-8b37-5cc9774c76e2' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/shu-xie-shun-xu.html</guid><pubDate>Sat, 11 Apr 2026 04:55:50 +0000</pubDate></item><item><title>鼠标样式</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/shu-biao-yang-shi.html</link><description># 鼠标样式
 
