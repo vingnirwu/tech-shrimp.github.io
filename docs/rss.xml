@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 11 Apr 2026 08:09:40 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bian-huan.html</link><description># 变换
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sat, 11 Apr 2026 08:42:44 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/bian-huan.html</link><description># 变换
 
 &lt;img width='1742' height='964' alt='Image' src='https://github.com/user-attachments/assets/bafd20ee-6ca2-4493-a82a-6612ff13de34' /&gt;
 
@@ -32,13 +32,29 @@ https://css-transform.moro.es/
 
 
 
-#2d-旋转变换
+### 2d-旋转变换
 
 &lt;img width='1556' height='849' alt='Image' src='https://github.com/user-attachments/assets/9235a3e4-258a-4790-ad3a-aaf19b437beb' /&gt;
 
 注意：
 &lt;img width='1439' height='295' alt='Image' src='https://github.com/user-attachments/assets/07785131-38e4-48aa-ae31-f826a555e8f9' /&gt;
 
+&lt;img width='1425' height='445' alt='Image' src='https://github.com/user-attachments/assets/72e66ace-9ee3-4097-a9df-5add5b210ffb' /&gt;
+
+
+### 缩放
+
+&lt;img width='1578' height='851' alt='Image' src='https://github.com/user-attachments/assets/950ab27a-b938-4755-a84f-ea1adf91333b' /&gt;
+
+区别：
+
+&lt;img width='598' height='249' alt='Image' src='https://github.com/user-attachments/assets/cb2c781e-ce8c-42b2-925a-d6d8f07c5591' /&gt;
+
+
+
+### 倾斜
+
+&lt;img width='1515' height='836' alt='Image' src='https://github.com/user-attachments/assets/a6336007-a49e-4296-9516-15e29a7e6706' /&gt;
 
 
 
