@@ -1,5 +1,280 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 12 Apr 2026 08:08:50 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>2d变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/2d-bian-huan.html</link><description># 变换
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 12 Apr 2026 08:10:02 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>2d变换文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/2d-bian-huan-wen-jian.html</link><description>```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .div1 {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+        }
+
+        /* 位移 */
+        .remove {
+            /* translate 位移 */
+            /* transform: translate（20px）; */
+            /* transform: translateX(20px);  像x轴（右）移动20px */
+            /* transform: translateY(10px);  像y轴（下）移动10px */
+            /* transform: translate(50%, 10px); 同时向x轴（右）移动50%，向y轴（下）移动10px */
+            /* 注意：右上角是原点 */
+            /* 50%是自身的50% ，与父容器无关*/
+
+            /* transition 过渡效果 */
+            /* 写在对象里与写在:hover里区别：
+             写在对象里：效果一直持续，有恢复效果
+             写在:hover里：鼠标移开立刻恢复原状态
+             */
+            /* .3s ———— 0.3秒 */
+            transition: all .3s;
+        }
+
+        .remove:hover {
+            transform: translate(30px, 50%);
+        }
+
+        /* 位移案例：找相似平移动盒子 */
+        .box {
+            width: 340px;
+            height: 120px;
+            background-color: pink;
+            margin: 2px auto;
+        }
+
+        .box ul {
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            /* position: relative; */
+            width: 100%;
+            height: 100%;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .box ul li {
+            position: relative;
+            flex: 1;
+            height: 100px;
+            background-color: aquamarine;
+            margin-top: 10px;
+            /* 隐藏超出部分 */
+            overflow: hidden;
+            border: 1px solid transparent;
+        }
+
+        .box ul li:hover {
+            border: 1px solid red;
+        }
+
+        .box ul li .remove2 {
+            position: absolute;
+            bottom: -40px;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            background-color: red;
+            transition: all .3s;
+        }
+
+        .box ul li:hover .remove2 {
+            transform: translateY(-40px);
+        }
+
+
+        /* 旋转 */
+        .rotate {
+            /* rotate 旋转 */
+            /* transform: rotate(45deg); */
+            /* 单位：deg 度 */
+            /* 正值是逆时针，负值是顺时针 */
+            /* 注意：默认旋转中心是原点 */
+            /* 可以改变旋转中心 */
+            transform-origin: right bottom;
+            margin: 0 auto;
+        }
+
+        .rotate:hover {
+            transform: rotate(-45deg);
+            transition: all .5s;
+        }
+
+
+        /* 缩放 */
+        .scale {
+            /* scale 缩放 */
+            /* transform: scale(1); */
+            /* 双参数第一个控制X轴放大，第二个控制Y轴放大 */
+            /* transform: scale(1, 0.5); */
+            /* 注意：默认缩放中心是原点 */
+            /* 可以改变缩放中心 */
+            transform-origin: center center;
+            margin: 0 auto;
+            transition: all .5s;
+        }
+
+        .scale:hover {
+            transform: scale(1.5, 2);
+            transition: all .5s;
+            /* 与此时 width 100px 
+            height 100px 相比，缩放后不会影响其他盒子布局 
+            会显示在上面*/
+        }
+
+
+        /* 倾斜 */
+        .skew {
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: bold;
+            font-family: 宋体;
+            /* skew 倾斜 */
+            /* transform: skew(20deg); */
+            /* 可以有 skewX、skewY */
+            /* 默认按x轴倾斜 */
+            /* transform: skewX(20deg); */
+            /* 双参数第一个控制X轴倾斜，第二个控制Y轴倾斜 */
+            /* transform: skew(15deg, 15deg); */
+            /* 单位：deg 度 */
+            /* 正值是向右倾斜，负值是向左倾斜 */
+            /* 注意：默认倾斜中心是原点 */
+            /* 可以改变倾斜中心 */
+            /* transform-origin: center center; */
+            transform: skewX(42deg);
+            margin: 0 auto;
+        }
+
+        .skew1 {
+            transition: all .5s;
+            margin: 0 auto;
+        }
+
+        .skew1:hover {
+            transform: skew(15deg, 15deg);
+            transition: all .5s;
+        }
+
+        /* 卡片效果 */
+        .card {
+            position: relative;
+            width: 240px;
+            height: 280px;
+            margin: 50px auto;
+        }
+
+        .card div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 240px;
+            height: 280px;
+            border-radius: 0px 30px 30px 40px;
+        }
+
+        .card .front {
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .card .back {
+            background-color: rgb(192, 101, 187);
+            transform: skewY(8deg);
+            transform-origin: left top;
+            transition: all .5s;
+        }
+
+        .card:hover .back {
+            transform: skewY(18deg);
+            width: 200px;
+        }
+
+        .card:hover .front {
+            transform: translateY(-2px);
+        }
+
+        /* transition 过渡进阶写法 */
+        /* transition: 过度属性 过渡时间 过渡曲线 延迟时间; */
+        /* transition: all .5s linear 1s; */
+        /* 过渡曲线 */
+        /* linear 线性过渡 */
+        /* ease 缓入缓出 */
+        /* ease-in 缓入 */
+        /* ease-out 缓出 */
+        /* cubic-bezier 贝塞尔曲线 */
+        /* 网站：https://cubic-bezier.com/#.17,.67,.83,.67 */
+        /* 例如：cubic-bezier(.17,.67,.83,.67) */
+        .transition {
+            transition: all .5s cubic-bezier(0, 1.1, .88, -0.17);
+        }
+
+
+        /* 复合写法 */
+        /* transform: A() B() C() ; */
+        /* 注意：顺序C-&gt;B-&gt;A */
+        .div12:hover {
+            transition: all 5s;
+            transform: translate(100px, 100px) rotate(45deg) scale(1.5);
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class='div1 remove'&gt;&lt;/div&gt;
+    &lt;div class='div1' style='background-color: red;'&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='box'&gt;
+        &lt;ul&gt;
+            &lt;li&gt;
+                &lt;div class='remove2'&gt;&lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;div class='remove2'&gt;&lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;div class='remove2'&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='div1 rotate'&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='div1 scale'&gt;&lt;/div&gt;
+    &lt;div class='div1 scale' style='background-color: red;'&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='div1 skew'&gt;倾斜45度&lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='div1 skew1'&gt;XY倾斜45度&lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='card'&gt;
+        &lt;div class='front'&gt;&lt;/div&gt;
+        &lt;div class='back'&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='div1 transition remove'&gt;&lt;/div&gt;
+    &lt;div class='div1' style='background-color: red;'&gt;&lt;/div&gt;
+    &lt;br&gt;
+    &lt;div class='div1 transition div12'&gt;&lt;/div&gt;
+    &lt;div class='div1' style='background-color: red;'&gt;&lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+下载链接：
+
+[基础变化-2d.html](https://github.com/user-attachments/files/26655288/-2d.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/2d-bian-huan-wen-jian.html</guid><pubDate>Sun, 12 Apr 2026 08:09:30 +0000</pubDate></item><item><title>2d变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/2d-bian-huan.html</link><description># 变换
 
 &lt;img width='1742' height='964' alt='Image' src='https://github.com/user-attachments/assets/bafd20ee-6ca2-4493-a82a-6612ff13de34' /&gt;
 
