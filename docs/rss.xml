@@ -1,5 +1,153 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 19 Apr 2026 12:41:40 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>3d变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/3d-bian-huan.html</link><description># 3d动画
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 19 Apr 2026 12:42:20 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>3d变换文件</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/3d-bian-huan-wen-jian.html</link><description>```
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        img {
+            width: 200px;
+            margin: 20px auto;
+            transition: all .8s;
+        }
+
+        /* 旋转 */
+        /* rotateX 旋转X轴 */
+        /* rotateY 旋转Y轴 */
+        /* rotateZ 旋转Z轴 */
+        .xturn:hover {
+            transform: rotateX(40deg);
+        }
+
+        .yturn:hover {
+            transform: rotateY(140deg);
+        }
+
+        /* .zturn:hover {
+            transform: rotateZ(180deg);
+        } */
+
+        /* 透视 */
+        /* 父元素与子元素设置有区别 */
+        /* 父元素设置：
+        perspective: 5000px;
+        数值越小，透视效果越明显
+        子元素设置：
+        transform: perspective(500px) rotateX(40deg); 
+        子元素中perspective必须是transform的第一个参数，否则不会生效*/
+
+
+        /* 给父元素设置透视 */
+        body {
+            perspective: 200px;
+        }
+
+        /* 给子元素设置透视 */
+        .zturn:hover {
+            transform: perspective(200px) rotateX(40deg) rotateZ(40deg);
+        }
+
+        /* 3d位移 */
+        /* transform: translate3d(x, y, z); */
+        /* 主要： transform: translateZ(z); */
+        .remove:hover {
+            transform: translateZ(60px);
+        }
+
+        /* 子元素需要找到父元素，开启3d效果
+        transform-style: preserve-3d; */
+        .box {
+            position: relative;
+            width: 300px;
+            height: 450px;
+            margin: 0 auto;
+            background-color: #a63434;
+
+            /* 添加透视效果 */
+            perspective: 1000px;
+        }
+
+        .box&gt;div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: pink;
+            text-align: center;
+            line-height: 450px;
+            color: #fff;
+            font-size: 30px;
+            transition: all 1s;
+
+            /* 隐藏反面的背面 */
+            backface-visibility: hidden;
+            /* 需要找到父元素，开启3d效果 */
+            transform-style: preserve-3d;
+        }
+
+
+        .box .back {
+            background-color: #176494;
+            transform: rotateY(180deg);
+        }
+
+        .box .front {
+            z-index: 1;
+        }
+
+        .box:hover .front {
+            transform: rotateY(-180deg);
+        }
+
+        .box:hover .back {
+            transform: rotateY(0deg);
+        }
+
+        /* 给字体添加3d效果 */
+        .box .front p {
+            font-size: 30px;
+            line-height: 240px;
+            /* 立体 */
+            transform: translate3d(0, 0, 60px);
+            backface-visibility: hidden;
+        }
+
+        .box .back p {
+            font-size: 30px;
+            line-height: 120px;
+            transform: translate3d(0, 0, 60px);
+            backface-visibility: hidden;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;img src='./上箭头.jpg' alt='' class='xturn'&gt;
+    &lt;br&gt;
+    &lt;img src='./下箭头.jpg' alt='' class='yturn'&gt;
+    &lt;br&gt;
+    &lt;img src='./背景.png' alt='' class='zturn'&gt;
+    &lt;br&gt;
+    &lt;img src='./背景.png' alt='' class='remove'&gt;
+    &lt;div class='box'&gt;
+        &lt;div class='front'&gt;
+            &lt;p&gt;正面&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class='back'&gt;
+            &lt;p&gt;反面&lt;/p&gt;
+            &lt;p&gt;反面文字立体效果&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+[基础变换-3d.html](https://github.com/user-attachments/files/26869214/-3d.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/3d-bian-huan-wen-jian.html</guid><pubDate>Sun, 19 Apr 2026 12:41:54 +0000</pubDate></item><item><title>3d变换</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/3d-bian-huan.html</link><description># 3d动画
 
 
 ### 旋转
