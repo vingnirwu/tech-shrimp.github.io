@@ -1,5 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 19 Apr 2026 13:08:50 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>动画</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/dong-hua.html</link><description># 动画
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Sun, 26 Apr 2026 10:29:22 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>SVG图片</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/SVG-tu-pian.html</link><description># SVG图片
+
+&lt;img width='1442' height='768' alt='Image' src='https://github.com/user-attachments/assets/6c46a9c8-ad43-4947-91c9-7c952e35cf44' /&gt;
+
+提取方式，加入SVG标签代码到body
+
+&lt;img width='1648' height='417' alt='Image' src='https://github.com/user-attachments/assets/bf1714f6-ed8a-4d0d-b763-4e60dbfe4c09' /&gt;
+
+
+### SVG的CSS属性
+
+&lt;img width='1548' height='835' alt='Image' src='https://github.com/user-attachments/assets/68b1f807-f8bd-416d-8792-5b130a2639aa' /&gt;
+
+
+&lt;img width='1263' height='368' alt='Image' src='https://github.com/user-attachments/assets/fd6b082b-efa5-4587-919e-27b53c4458a1' /&gt;
+
+
+虚线
+
+&lt;img width='1530' height='749' alt='Image' src='https://github.com/user-attachments/assets/42ec758f-b080-4719-9e31-cbadfff656ce' /&gt;
+
+。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/SVG-tu-pian.html</guid><pubDate>Sun, 26 Apr 2026 10:28:55 +0000</pubDate></item><item><title>动画</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/dong-hua.html</link><description># 动画
 
 &lt;img width='1445' height='849' alt='Image' src='https://github.com/user-attachments/assets/19db6b37-5458-46f1-b35f-2a1a862810e0' /&gt;
 
