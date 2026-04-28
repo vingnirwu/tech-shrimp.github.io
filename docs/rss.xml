@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:17:12 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>SVG图片</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/SVG-tu-pian.html</link><description># SVG图片
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://vingnirwu.github.io/tech-shrimp.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:43:38 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>SVG图片</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/SVG-tu-pian.html</link><description># SVG图片
 
 &lt;img width='1442' height='768' alt='Image' src='https://github.com/user-attachments/assets/6c46a9c8-ad43-4947-91c9-7c952e35cf44' /&gt;
 
@@ -2808,4 +2808,613 @@ color: red;
 &lt;/html&gt;
 ```
 下载链接：
-[元素选择模式.html](https://github.com/user-attachments/files/26206402/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/yuan-su-xian-shi-mo-shi.html</guid><pubDate>Tue, 24 Mar 2026 08:09:12 +0000</pubDate></item></channel></rss>
+[元素选择模式.html](https://github.com/user-attachments/files/26206402/default.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/yuan-su-xian-shi-mo-shi.html</guid><pubDate>Tue, 24 Mar 2026 08:09:12 +0000</pubDate></item><item><title>黑马pink笔记</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</link><description>[「学习笔记」html基础.pdf](https://github.com/user-attachments/files/26113117/html.pdf)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/hei-ma-pink-bi-ji.html</guid><pubDate>Thu, 19 Mar 2026 11:14:55 +0000</pubDate></item><item><title>文本</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        文本属性 
+        文本颜色 
+        div {
+            color: deeppink;
+            color: #ff0000;
+            color: rgb(255, 0, 0);
+        }
+        可以用预定义的颜色值，也可以用16进制、rgb 
+        双击可以从调色盘上选择 
+        
+        文本对齐 
+        div {
+            text-align: center;
+        }
+        属性：left、right、center 
+        
+        文本装饰 
+        div {
+            text-decoration: underline;
+        }
+        a {
+            text-decoration: none;
+            /* 取消a下划线 */
+        }
+        属性:none默认、underline下划线、overline上划线、line-through删除线 
+        
+        文本缩进 
+        p {
+            text-indent: 10px;
+            text-indent: 2em;
+        }
+        属性：px——像素、em——当前缩进文字几个文字大小 
+        
+        行间距 
+        body {
+            line-hight: 26px;
+        }
+        行高有上间距与下间距与文本高度，上间距与下间距相等， 
+        一般测第一行的最下沿到第二行的最下沿
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h2&gt;标题&lt;/h2&gt;
+    &lt;p&gt;普通文本1&lt;/p&gt;
+    &lt;p&gt;普通文本2&lt;/p&gt;
+    &lt;a&gt;下划线文本3&lt;/a&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/wen-ben.html</guid><pubDate>Thu, 19 Mar 2026 11:14:01 +0000</pubDate></item><item><title>字体</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/zi-ti.html</link><description>```'字体'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+
+    &lt;style&gt;
+        字体 
+        字体属性 
+        h2 {
+            font-family: '微软雅黑';
+        }
+        p {
+            font-family: 'Microsoft YaHei', 'Arial';
+        }
+        多个字体间用英文','分开 
+        用英文名称兼容根号，用引号包裹,
+        单引号双引号都行 执行时先找前一个，再下一个 
+        
+        字体大小 
+        body {
+            font-size: 20px;
+        }
+        标题较为特殊，需要单独设置大小 
+        px－像素是最常用单位 尽量不要采用浏览器自定 
+        
+        字体粗细 
+        .bold {
+            font-wight: bold;
+            font-wight: normal;
+        }
+        属性较多，建议去手册查找 
+        属性：normal正常字体 400、bold粗 700、bolder超粗、lighter细、
+        number（纯数字不需要单位，设置粗细） 实际开发更提倡使用数字 
+        
+        文字样式 
+        .italic {
+            font-style: italic;
+            font-style: normal;
+        }
+        属性：italic斜体、normal正常 
+        主要使用是让斜体变正 
+        
+        复合属性 
+        div {
+            /* 省略写法：font: font-style font-wight font-size/line-hight font-family; */
+            font: italic 700 16px 'Microsoft YaHei';
+        }
+        不能更改位置，必须按这个顺序，中间用空格隔开 其余可省略，
+        但font-size与font-family不能省
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h2&gt;标题微软雅黑&lt;/h2&gt;
+    &lt;p&gt;普通文本1&lt;/p&gt;
+    &lt;p class='bold'&gt;普通文本2加粗&lt;/p&gt;
+    &lt;p class='italic'&gt;普通文本3斜体&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/zi-ti.html</guid><pubDate>Thu, 19 Mar 2026 10:59:46 +0000</pubDate></item><item><title>基础选择器</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ji-chu-xuan-ze-qi.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;style&gt;
+        标签选择器
+        p {
+        color: grees
+        }
+        标签选择器：写上标签名，将某一类全部选出
+        优点：快速更改
+        缺点：不能单一设置
+
+        类选择器
+        .red {
+        color: red;
+        }
+        类选择器口诀：样式点定义、 结构类调用、 一个或多个、 开发最常用
+        .类名 为自己定义，不能用div、p之类
+        注意
+        1、类选择器可以用 '.'（英文点号）进行标识, 后面紧跟类名 （自定义 , 我们自己命的)
+        2、以理解为给这个标签起了一个名字
+        3、长名称或词组可以使用中横线来为选择器命名
+        4、不要使用纯数字、 中文等命名,尽量使用英文字母来表示
+        5、命名要有意义,尽量使别人-跟就知道这个类名的目的
+        多类名
+        font35 {
+        wide: 250;
+        }
+
+        ID选择器
+        #pink {
+        color: pink;
+        }
+        id选择器口诀：样式#定义、结构id调用、只能调用一次、别人切勿使用
+
+        通配符选择器
+        * {
+        color: red;
+        }
+        不需要调用，给所有标签统一修改
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;li class='red'&gt;red类&lt;/li&gt;
+    &lt;div class='red font35'&gt;多类名&lt;/div&gt;
+    &lt;div id='pink'&gt;id选择器&lt;/div&gt; 
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/ji-chu-xuan-ze-qi.html</guid><pubDate>Thu, 19 Mar 2026 10:54:04 +0000</pubDate></item><item><title>CSS基础</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-ji-chu.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+
+    css一般写在head与/head之间
+    &lt;style&gt;
+        /* 格式：选择器{样式} */
+        p {
+            color: red;
+            /* 颜色  */
+            font-size: 12px;
+            /* 文字大小：12像素 */
+        }
+    &lt;/style&gt;
+
+    规范：
+    1、属性与属性值对应
+    2、属性与属性值之间用冒号:分割，用分号;结尾
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;p&gt;段落标签&lt;/p&gt;
+    &lt;p&gt;文本1&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+```。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-ji-chu.html</guid><pubDate>Thu, 19 Mar 2026 10:53:27 +0000</pubDate></item><item><title>CSS基础知识</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-ji-chu-zhi-shi.html</link><description># CSS基础知识
+
+### CSS简介
+
+&lt;img width='600' height='138' alt='Image' src='https://github.com/user-attachments/assets/4454f9a7-70c8-4a47-bd46-9cb4c25ef63a' /&gt;
+
+&lt;img width='479' height='164' alt='Image' src='https://github.com/user-attachments/assets/2dade072-e1b5-435b-a0c7-2b358bd6039f' /&gt;
+
+&lt;img width='478' height='84' alt='Image' src='https://github.com/user-attachments/assets/f497273c-b1d0-4e28-8c4b-9e1bb19160ae' /&gt;
+
+&lt;img width='478' height='297' alt='Image' src='https://github.com/user-attachments/assets/3668af04-6a56-4e51-9aaf-9b127b9fb41b' /&gt;
+
+语法规范：
+选择器 {
+样式;
+}
+
+
+### CSS代码风格
+#### 1、样式格式书写
+
+&lt;img width='900' height='500' alt='Image' src='https://github.com/user-attachments/assets/32bc7c32-8310-4348-80c7-bb8a8e050214' /&gt;
+
+#### 2、样式大小写
+      提倡用小写字母书写
+
+&lt;img width='900' height='248' alt='Image' src='https://github.com/user-attachments/assets/5541d1cd-5def-4724-ad57-bf55641a42ac' /&gt;
+
+#### 3、空格规范
+
+&lt;img width='343' height='91' alt='Image' src='https://github.com/user-attachments/assets/1405001f-683c-4734-920a-4acbf65440f9' /&gt;
+
+
+### CSS选择器的作用
+
+&lt;img width='789' height='278' alt='Image' src='https://github.com/user-attachments/assets/e0bc62e4-5b48-4e65-b9b2-9980cb8e8d57' /&gt;
+
+&lt;img width='558' height='215' alt='Image' src='https://github.com/user-attachments/assets/c1ffc8e3-e6ae-4503-9746-d95b7fe17eff' /&gt;
+
+
+### 选择器的分类
+
+#### 基础选择器
+
+##### 标签选择器
+
+&lt;img width='754' height='177' alt='Image' src='https://github.com/user-attachments/assets/faa3d06c-d634-4d5e-a5b0-30b9bcdd8d5a' /&gt;
+
+&lt;img width='825' height='400' alt='Image' src='https://github.com/user-attachments/assets/c99c33db-b5a8-43f8-b6d7-85a39eecd5c0' /&gt;
+
+##### 类选择器
+
+&lt;img width='795' height='490' alt='Image' src='https://github.com/user-attachments/assets/6cae3aba-ede4-4d32-9389-75f4d5137515' /&gt;
+
+&lt;img width='661' height='231' alt='Image' src='https://github.com/user-attachments/assets/84f0a9b9-0a75-4771-b786-6f07099184be' /&gt;
+
+   多类名
+
+&lt;img width='771' height='267' alt='Image' src='https://github.com/user-attachments/assets/b9f8b947-7fb9-4ee3-8bd0-67580ab52bb6' /&gt;
+
+&lt;img width='775' height='274' alt='Image' src='https://github.com/user-attachments/assets/7c987a68-2e26-43df-8218-e64cf8597ec8' /&gt;
+
+&lt;img width='800' height='387' alt='Image' src='https://github.com/user-attachments/assets/18eddd3a-0666-4b54-bf49-57450c4b9a9c' /&gt;
+
+##### id选择器
+
+&lt;img width='533' height='142' alt='Image' src='https://github.com/user-attachments/assets/fad536bd-70cf-44b1-9d6c-6598d900a377' /&gt;
+
+&lt;img width='900' height='411' alt='Image' src='https://github.com/user-attachments/assets/31126fc6-657b-4aeb-8c51-5869343b8a85' /&gt;
+
+##### 通配符选择器
+
+&lt;img width='775' height='293' alt='Image' src='https://github.com/user-attachments/assets/1a3ac20e-bb94-4e93-886b-3a4592a2ca3a' /&gt;
+
+### 选择器总结
+
+&lt;img width='846' height='449' alt='Image' src='https://github.com/user-attachments/assets/032f3151-dbbb-4e56-b410-904e7c0b98b3' /&gt;
+
+
+### CSS引入方式
+
+&lt;img width='631' height='317' alt='Image' src='https://github.com/user-attachments/assets/db642a2c-090e-49a0-94b6-451f85bc1780' /&gt;
+
+##### 行内样式表
+
+&lt;img width='900' height='277' alt='Image' src='https://github.com/user-attachments/assets/0c1b0228-1400-469e-9fb5-a911c35e52e8' /&gt;
+
+##### 内部样式表
+
+&lt;img width='781' height='288' alt='Image' src='https://github.com/user-attachments/assets/76c772f2-9c91-43ab-aee2-2d24e9f96f3a' /&gt;
+
+&lt;img width='697' height='150' alt='Image' src='https://github.com/user-attachments/assets/d38b7aca-47c2-4ebf-8119-8f3350a545a6' /&gt;
+
+##### 外部样式表
+
+&lt;img width='840' height='551' alt='Image' src='https://github.com/user-attachments/assets/143e339c-35b1-4793-8a92-1b1090926c06' /&gt;
+
+&lt;img width='798' height='242' alt='Image' src='https://github.com/user-attachments/assets/52199d3b-52aa-415e-a81b-6a4292144f99' /&gt;
+
+
+### emmet语法
+
+&lt;img width='809' height='200' alt='Image' src='https://github.com/user-attachments/assets/98d284fa-67d9-41b0-87d2-079dab13cf15' /&gt;
+
+&lt;img width='693' height='313' alt='Image' src='https://github.com/user-attachments/assets/7e4e8637-f13f-467d-b2b8-b61742becb71' /&gt;
+
+
+### 元素显示模式
+
+&lt;img width='823' height='227' alt='Image' src='https://github.com/user-attachments/assets/ff392676-f0ed-4e8d-a89a-e3a188485010' /&gt;
+
+&lt;img width='879' height='445' alt='Image' src='https://github.com/user-attachments/assets/fd48fb08-699f-46a4-9356-2d64e00d2164' /&gt;
+
+&lt;img width='868' height='445' alt='Image' src='https://github.com/user-attachments/assets/8cf3046b-f770-4ae2-8f0e-e330ad646166' /&gt;
+
+&lt;img width='798' height='331' alt='Image' src='https://github.com/user-attachments/assets/c7100285-f112-44e9-96d5-8ed7a62bb4ef' /&gt;
+
+&lt;img width='854' height='337' alt='Image' src='https://github.com/user-attachments/assets/080b4845-4f94-4ddb-9cf3-492c43b8a89b' /&gt;
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/CSS-ji-chu-zhi-shi.html</guid><pubDate>Thu, 19 Mar 2026 08:45:12 +0000</pubDate></item><item><title>表单</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-dan.html</link><description>```'html'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    表单
+    作用：收集用户信息
+    组成：表单域、表单控件（元素）、提示信息
+    表单域
+    &lt;form action='demo.php' method='post' name='name1'&gt;
+    &lt;/form&gt;
+    表单域就是form标签
+
+    表单控件
+    input表单元素
+    &lt;form&gt;
+    表单标题：&lt;input type='属性值'&gt; &lt;br&gt;
+    例：用户名:&lt;input type='text' name='username' value ='请输入用户名'&gt;
+    密码：&lt;input type='password' maxlength='20'&gt; &lt;br&gt;——maxlength控制文本长度
+    性别：男 &lt;input type='radio' name='sex' checked='checked'&gt; 女&lt;input type='radio' name='sex'&gt; ————单选按钮name相同才可以实现，checked控制是否初始选中
+    人妖 &lt;input type='radio'&gt; &lt;br&gt;————单选按钮可以实现多选
+    爱好：吃法&lt;input type='checkbox'&gt; 睡觉 &lt;imput type='checkbox'&gt; &lt;br&gt;————复选框，✓形式
+    提交按钮&lt;input type='submit' value='免费注册'&gt;——提交按钮可以把表单元素里的值提交给后台
+    重置按钮&lt;input type='reset' value='重新设置'&gt;——还原表单元素的初始默认状态
+    普通按钮&lt;input type='button' value='发送验证码'&gt;——后期与js配合使用
+    文件域&lt;input type='file'&gt;——上传文件时使用
+    &lt;/form&gt;
+
+    表单元素
+    type——控制形态
+    name——定义表单的名字，区别不同的表单，单选按钮的单选需要name相同
+    value——在文本框中可看到，但主要是给后台人员使用
+    checked——属性值：checked，默认加载时就选中
+    maxlength——属性值：正整数，规定输入字段字符的最大长度
+
+
+
+    属性值	         描述
+    button	          定义可点击按钮（多数情况下，用于通过                                      JavaScript 启动脚本）。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-dan.html</guid><pubDate>Thu, 19 Mar 2026 07:23:37 +0000</pubDate></item><item><title>标签学习2</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-2.html</link><description>```'http'
+&lt;!DOCTYPE html&gt;
+&lt;html lang='en'&gt;
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    表格标签
+    主要作用：展示、显示数据
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;th&gt;表头&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;单元格&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    tr——行
+    td——单元格（行中的列，即为单个单元格）
+    th——表头单元格
+
+    表格属性
+    &lt;table align='center' border='1' cellpadding='3' cellspacing='0' width='500'&gt;
+    &lt;/table&gt;
+    align——表格对齐方式 left center right
+    border——边框 1或''
+    cellpadding——单元格边缘与字符间的距离，默认为1像素
+    cellspacing——单元格间的距离，默认2像素
+    width——表格的宽度 像素值或百分比
+
+    表格结构标签
+    &lt;table&gt;
+        &lt;thead&gt;表头部&lt;/thead&gt;
+        &lt;tbody&gt;表主题&lt;/tbody&gt;
+    &lt;/table&gt;
+    使表格更清晰
+
+    合并单元格
+    两种方式：跨行合并、跨列合并
+    &lt;table border='1'&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td rowspan='2'&gt;&lt;/td&gt;
+            &lt;td colspan='2'&gt;&lt;/td&gt;
+            &lt;!-- &lt;td&gt;&lt;/td&gt; --&gt;删除多余单元格
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;!-- &lt;td&gt;&lt;/td&gt; --&gt;
+            &lt;td&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+
+    列表标签
+    作用：用来做布局
+    类型：无序列表、有序列表、自定义列表
+    无序列表
+    &lt;ul&gt;
+        &lt;li&gt;列表项1&lt;/li&gt;
+        &lt;li&gt;列表项2&lt;/li&gt;
+        &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    注意：
+    1.无序列表各个项无等级之分，是并列的
+    2.ul中只能放&lt;li&gt;&lt;/li&gt;
+    3.li中可以容纳任何元素
+
+    有序列表
+    &lt;ol&gt;
+        &lt;li&gt;1.列表项1&lt;/li&gt;
+        &lt;li&gt;2.列表项2&lt;/li&gt;
+    &lt;/ol&gt;
+    有序列表前会有编号
+    注意项与无序列表基本相同
+
+    自定义列表
+    &lt;dl&gt;
+        &lt;dt&gt;名词1&lt;/dt&gt;
+        &lt;dd&gt;名词1解释1&lt;/dd&gt;
+        &lt;dd&gt;名词1解释2&lt;/dd&gt;
+    &lt;/dl&gt;
+    dl用于定义描述列表，会与dd一同使用
+
+
+     字体图标标签
+          &lt;i class='iconfont icon-dianzan'&gt;&lt;/i&gt;
+          需要下载，引用iconfont的css
+&lt;/body&gt;
+
+&lt;/html&gt;
+```
+
+##下载
+[标签学习02.html](https://github.com/user-attachments/files/26106772/02.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-2.html</guid><pubDate>Thu, 19 Mar 2026 05:31:58 +0000</pubDate></item><item><title>标签学习1</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-1.html</link><description>```'http'
+&lt;!DOCTYPE html&gt;
+文档类型声明标签 --并非是html标签
+
+&lt;html lang='en'&gt;
+lang来定义文档显示的语言
+1.en是英文
+2.zh-CN是中文
+但其实en与zh-CN的网页均可显示中英文
+仅对浏览器起提示作用
+
+&lt;head&gt;
+    &lt;meta charset='UTF-8'&gt;
+    &lt;meta&gt;标签下的charset用来定义HTML使用哪种字符的编码
+    不写会出现乱码
+
+    &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    标题标签
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;h2&gt;&lt;/h2&gt;
+    &lt;h3&gt;&lt;/h3&gt;
+    &lt;h4&gt;&lt;/h4&gt;
+    &lt;h5&gt;&lt;/h5&gt;
+    &lt;h6&gt;&lt;/h6&gt;
+    h1-h6是标题标签，加粗显示，级别依次
+
+    段落标签
+    &lt;p&gt;&lt;/p&gt;
+    用段落标签把文字分段，分别储存段落
+
+    换行标签
+    &lt;br /&gt;
+    换行标签，强制换行，空行比段落小
+    单标签，无需结束标签
+
+    文本格式化标签
+    为文字设置粗体，斜体，下划线等效果
+    &lt;strong&gt;&lt;/strong&gt;或&lt;b&gt;&lt;/b&gt;————加粗
+    &lt;em&gt;&lt;/em&gt;或&lt;i&gt;&lt;/i&gt;————倾斜
+    &lt;del&gt;&lt;/del&gt;或&lt;s&gt;&lt;/s&gt;————删除线
+    &lt;ins&gt;&lt;/ins&gt;或&lt;u&gt;&lt;/u&gt;————下划线
+
+    无语义标签
+    &lt;div&gt;&lt;/div&gt;
+    &lt;span&gt;&lt;/span&gt;
+    div标签一个*独占一行*
+    span一行可以放多个
+    网页布局中很重要
+
+    图像标签*
+    &lt;img src='图像URL' alt='替换文本' title='提示文本' width='宽度' height='高度' border='边框' /&gt;
+    图像标签为单标签，src后为所插入图像文件的路径和文件名，/用来表示这个为单标签
+    一般图像文件需存储入同文件夹
+    alt为替换文本，在文件显示不出来时显示
+    title为提示文本，在鼠标悬浮时显示文字
+    width为图像设置宽度
+    height为图像设置宽度
+    border为图像设置边框粗细
+
+    注意：
+    1.图像标签可以有多个属性，必须在标志名后面
+    2.属性不分先后顺序，以空格分开
+    3.key='value'格式
+
+    超链接标签*
+    &lt;a href='跳转目标' target='目标窗口弹出方式'&gt;链接文本&lt;/a&gt;
+    herf为链接目标的url地址，为必须属性
+    target用于在指定打开方式，_self为默认值以当前窗口打开，_blank在新窗口打开
+    链接分类：1.外部链接
+    &lt;a href='http://www.qq.com'&gt;腾讯&lt;/a&gt;
+    http://+外部网站
+    2.内部链接
+    &lt;a href='创建页面.html'&gt;&lt;/a&gt;
+    无需http://
+    3.空连接
+    &lt;a href='#'&gt;&lt;/a&gt;
+    用#代替
+    4.下载链接
+    &lt;a href='img.zip'&gt;下载&lt;/a&gt;
+    herf里为文件
+    5.网页元素链接
+    &lt;a href=''&gt;&lt;img src='image/immg.jpg'&gt;&lt;/a&gt;
+    用网络元素替代文本被a标签包含
+    6.锚点链接
+    &lt;a href='#名字'&gt;&lt;/a&gt;
+    &lt;img src='image/immg.jpg' id='名字'&gt;
+    定位到页面中某个位置
+    herf为#+名字，名字在原本的目标标签中加入id属性
+    可用于返回顶部等用处
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+```
+
+##下载
+[标签学习01.html](https://github.com/user-attachments/files/26106761/01.html)。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/biao-qian-xue-xi-1.html</guid><pubDate>Thu, 19 Mar 2026 05:30:45 +0000</pubDate></item><item><title>路径学习</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/lu-jing-xue-xi.html</link><description>```'html'
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang='en'&gt;
+  
+  &lt;head&gt;
+      &lt;meta charset='UTF-8'&gt;
+      &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
+      &lt;title&gt;Document&lt;/title&gt;
+  &lt;/head&gt;
+  
+  &lt;body&gt;
+      &lt;img src='image/immg.jpg' alt=''&gt;
+      下一级
+      &lt;img src='../image/immg.jpg' alt=''&gt;
+      上一级
+  &lt;/body&gt;
+  
+  &lt;/html&gt;
+```
+
+# **相对路径**
+
+&lt;img width='900' height='611' alt='Image' src='https://github.com/user-attachments/assets/d394fa07-c4c4-4b2a-8c4d-d38734451a6a' /&gt;
+
+&lt;img width='900' height='631' alt='Image' src='https://github.com/user-attachments/assets/db99f68b-df79-4677-ab79-518aa58b1b61' /&gt;
+
+# **绝对路径**
+
+&lt;img width='900' height='353' alt='Image' src='https://github.com/user-attachments/assets/66aa8acf-945a-47a6-a182-853b37709c3e' /&gt;。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/lu-jing-xue-xi.html</guid><pubDate>Sun, 15 Mar 2026 14:01:24 +0000</pubDate></item><item><title>HTTP基础知识</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/HTTP-ji-chu-zhi-shi.html</link><description># http基础知识
+## 网页相关概念
+
+网页是构成网站的基本元素，网页由声音、文字、图片等元素构成，俗称为HTML文件。</description><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/HTTP-ji-chu-zhi-shi.html</guid><pubDate>Sun, 15 Mar 2026 13:44:38 +0000</pubDate></item><item><title>测试</title><link>https://vingnirwu.github.io/tech-shrimp.github.io/post/ce-shi.html</link><guid isPermaLink="true">https://vingnirwu.github.io/tech-shrimp.github.io/post/ce-shi.html</guid><pubDate>Wed, 07 Jan 2026 11:19:03 +0000</pubDate></item></channel></rss>
